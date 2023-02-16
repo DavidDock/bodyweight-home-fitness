@@ -40,25 +40,35 @@
         </ul>
     </header>
 
-    <!-- Contact form for suggested workouts, method is get to get simulated response instead of post-->
+    <!-- Contact form for suggested workouts, method is 'get' for simulated response instead of post-->
 
-    <section>
+    <div>
 
         <form action="contact-response.html" method="get">
 
-            <h2>We'd Love to Hear From You</h2>
+            <h2>It'll Be Great To Hear From You</h2>
 
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Add your name if you like" aria-label="Type your name here">
+            <div>
+
+                 <label for="name">Name</label>
             
-            <label for="message">Workout suggestion or message</label>
-            <textarea id="message" name="message" placeholder="Put in suggested workout or message here (required)" required></textarea>
+                 <input type="text" id="name" name="name" placeholder="Add your name if you like" aria-label="Type your name here">
 
+            </div>
+            
+            <div>
+            
+                 <label for="message">Workout suggestion or message</label>
+            
+                <textarea id="message" name="message" placeholder="Put in suggested workout or message here" required></textarea>
+
+            </div>    
+            
             <button type="submit">Send</button>
 
         </form>
 
-    </section>
+    </div>
 
     
 
