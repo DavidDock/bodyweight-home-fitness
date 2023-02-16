@@ -4,16 +4,16 @@ Bodyweight Home Fitness is a site that provides motivation for people to exercis
 
 ## UX
 
-### Whos the site for?
+#### Whos the site for?
 * This site is primarily for people who struggle making time for exercise. 
 * Its for people with a range of exercise experience but one of the main goals of the site is to make sure its accessible for begginers.
 * Its for people looking to workout at home with no gym equipment needed using just your own body.
 
-### Considerations for the culture of audience
+#### Considerations for the culture of audience
 This site is meant to be accessible to a wide audience looking for motivation and also for begginers to fitness. This means that both the design and content is not too overwhelming. The site structure is simple and easy to navigate with an inviting design.
 One of the main messages in this website is that any amount of exercise is better than none so big complex workout and exercise examples are not needed so again simple minimal content is used throughout the site.
 
-### User stories
+#### User stories
 * As a user I want to get motivated to exercise at home.
 * As a user I want simple examples of how I can work on my fitness goals.
 * As a user I want to share my experience and workouts.
@@ -25,3 +25,23 @@ One of the main messages in this website is that any amount of exercise is bette
 * As the site owner I want people to send me new workouts to try.
 * As the site owner I want to increase my socail media followers.
 * As the site owner I want to promote working out at home instead of the gym.
+
+###### For 1st time users
+* Looking for motivation.
+* Looking for exercise and workout examples.
+
+###### For returning users
+* looking to connect with social media links.
+* Looking to remotivate themselves.
+* To remind themselves of the exercise and workout examples.
+* To share their own workout or message.
+
+#### How will this be achieved
+* Straight forward inviting home page with clear navigation to topics.
+* Motivational quotes and short consise articles so not to overwhelm the casual user.
+* Simple  home exercise guide that is accessible to everyone, with easy to digest images and a detailed 'alt' for people needing screen readers.
+* Examples of  home workouts with a message to re-state that even doing just a little is better than none so they aren't intimidated.
+* Contact form for them to sugest a workout of send a message.
+* Social media links to increase followers and provide user more motivation.
+* Provide links to other websites for user to continue on their fitness journey.
+
