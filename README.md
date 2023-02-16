@@ -67,5 +67,8 @@ To meet WCAG 2.0 criteria, the color scheme was then passed to [eightshapes.com]
 
 ![color scheme and accessibility table](assets/media/color-scheme.png)
 
+I again wanted to use simple yet exiting typography which is easy to read. I found my fonts on [sliderrevolution.com](https://www.sliderrevolution.com/design/font-combinations/).
+
+![Typography](assets/media/font-combination.png)
 
 
