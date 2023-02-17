@@ -1,1 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&family=Ubuntu&display=swap');
+
+/* All elements */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Body style rules */
+
+body {
+
+    font-family: 'Ubuntu', sans-serif, Helvetica, arial;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+/* H1, H2, H3 general rules */
+
+h1,
+h2,
+h3  {
+
+    font-family: Teko, sans-serif, Helvetica, arial;
+}
+
+/* remove default <a> styles */
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+    

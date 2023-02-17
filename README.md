@@ -45,6 +45,9 @@ One of the main messages in this website is that any amount of exercise is bette
 * Social media links to increase followers and provide user more motivation.
 * Provide links to other websites for user to continue on their fitness journey.
 
+## **Imagery** ##
+
+
 ## **Wireframes**
 
 Wireframes were made with Balsamiq for Mobile, Tablet and Laptop devices.
