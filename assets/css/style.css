@@ -13,6 +13,7 @@ body {
     font-family: 'Ubuntu', sans-serif, Helvetica, arial;
     font-weight: 400;
     text-align: center;
+    font-size: 100%; /* Sets font-size for mobile devices */
 
 }
 
@@ -31,4 +32,6 @@ a {
     text-decoration: none;
     color: #000000;
 }
+
+
     
