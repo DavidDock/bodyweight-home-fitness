@@ -261,14 +261,67 @@ footer {
 .motivation-container {
     display: grid;
     gap: 1rem;
-    grid-template-areas: 
-    'one'
-    'two three'
-    'four'
-    'five six'
-    'seven'
-    'eight nine'
-    'ten'
-    'eleven twelve';
+    grid-template-areas:
+    "one one"
+    "two three"
+    "four four"
+    "five six"
+    "seven seven"
+    "eight nine"
+    "ten ten"
+    "eleven twelve";
     grid-auto-columns: 1fr;
 }
+
+
+
+#about-motivation {
+    grid-area: one;
+}
+
+#quote1 {
+    grid-area: two;
+}
+
+#quote2 {
+    grid-area: three;
+}
+
+#article1 {
+    grid-area: four;
+}
+
+#quote3 {
+    grid-area: five;
+}
+
+#quote4 {
+    grid-area: six;
+}
+
+#article2 {
+    grid-area: seven;
+}
+
+#quote5 {
+    grid-area: eight;
+}
+
+#quote6 {
+    grid-area: nine;
+}
+
+#article3 {
+    grid-area: ten;
+}
+
+#quote7 {
+    grid-area: eleven;
+}
+
+#quote8 {
+    grid-area: twelve;
+}
+
+
+
