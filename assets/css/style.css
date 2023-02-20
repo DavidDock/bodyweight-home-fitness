@@ -191,3 +191,22 @@ footer {
     display: flex;
     flex-flow: column;
 }
+
+/* hero quote sections */
+
+.hero-quote-container {
+    font-weight: 600;
+    background-image: linear-gradient(to right, #cdcdcd, rgb(205, 205, 205, 0.8));
+    max-width: 50%;
+    font-weight: 600;
+    text-align: justify;
+    margin: 4%;
+    padding: 4%;
+    border-radius: 25px;
+}
+
+.person {
+    font-family: teko;
+    font-weight: 600;
+    font-size: 120%;
+}
