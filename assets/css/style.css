@@ -221,3 +221,29 @@ footer {
     font-weight: 600;
     font-size: 1rem;
 }
+
+/* motivation page general style to containers and font */
+
+.about-container,
+.quote-container,
+.article-container {
+    font-size: 0.75rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* about container styling */
+
+.about-container {
+    background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
+    box-shadow: 5px 10px 8px #cdcdcd;
+    border-radius: 10px;
+}
+
+/* article container styling */
+
+.article-container {
+    background-image: linear-gradient(to right, #88bbd6, #cdcdcd);
+    box-shadow: 5px 10px 8px #cdcdcd;
+    border-radius: 10px;
+}
