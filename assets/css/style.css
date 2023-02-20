@@ -17,6 +17,7 @@ body {
     font-weight: 400;
     text-align: center;
     font-size: 100%; /* Sets font-size for mobile devices */
+    background-image: radial-gradient(#cdcdcd, #e9e9e9);
 
 }
 
@@ -46,4 +47,50 @@ h1 {
     font-size: 1.5rem;
     letter-spacing: 1px;
 }
+
+/* header and nav */
+
+header {
+    background-image: linear-gradient(to bottom, #88bbd6, #e9e9e9);
+}
+
+.logo {
+    width: fit-content;
+    margin: 6% auto;
+    padding: 0.25rem 0.5rem;
+    border: 0.3rem solid #e9e9e9;
+    border-radius: 25px;
+    /* blinking border for logo animation */
+    animation: blink 1.75s;
+    animation-iteration-count: 10;
+}
+
+@keyframes blink { 50% { border-color: #cdcdcd;}
+
+}
+
+/* flex nav-container contining logo and naigation list */
+
+.nav-container {
+    display: flex;
+    flex-flow: column;
+}
+
+/* flex list for navigation */
+
+.header-ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-list-item {
+    background-color: #e9e9e9;
+    font-size: 0.7rem;
+    margin-bottom: 5%;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+
+}
+
     
