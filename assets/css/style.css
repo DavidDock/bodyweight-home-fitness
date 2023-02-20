@@ -229,6 +229,7 @@ footer {
 .article-container {
     font-size: 0.75rem;
     padding: 1rem;
+    text-align: left;
 }
 
 /* about container styling */
@@ -253,4 +254,21 @@ footer {
     background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
     box-shadow: 5px 10px 8px #cdcdcd;
     border-radius: 10px;
+}
+
+/* motivation grid container for whole motivation page */
+
+.motivation-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 
+    'one'
+    'two three'
+    'four'
+    'five six'
+    'seven'
+    'eight nine'
+    'ten'
+    'eleven twelve';
+    grid-auto-columns: 1fr;
 }
