@@ -286,6 +286,8 @@ footer {
     grid-area: one;
 }
 
+/* background image on quote 1 */
+
 #quote1 {
     grid-area: two;
     background-image: url(/assets/images/press-up-lady-child.jpg);
@@ -295,16 +297,28 @@ footer {
 
 }
 
+/* background image on quote 2 */
+
 #quote2 {
     grid-area: three;
+    background-image: url(/assets/images/boxing-gloves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60%;
 }
 
 #article1 {
     grid-area: four;
 }
 
+/* background image on quote 3 */
+
 #quote3 {
     grid-area: five;
+    background-image: url(/assets/images/pull-up-warehouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 65%;
 }
 
 #quote4 {
