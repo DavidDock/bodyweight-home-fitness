@@ -259,6 +259,7 @@ footer {
 /* motivation grid container for whole motivation page */
 
 .motivation-container {
+    margin: 1rem;
     display: grid;
     gap: 1rem;
     grid-template-areas:
@@ -281,6 +282,11 @@ footer {
 
 #quote1 {
     grid-area: two;
+    background-image: url(/assets/images/press-up-lady-child.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 40%;
+
 }
 
 #quote2 {
