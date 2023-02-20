@@ -55,11 +55,11 @@ Wireframes were made with Balsamiq for Mobile, Tablet and Laptop devices.
 
 ![Home page](assets/wireframes/home-page.png)
 ![Motivation page Mobile/Tablet](assets/wireframes/motivation-mobile-tablet.png)
-![Motivation page laptop](assets/wireframes/motivation-laptop.png)
+![Motivation page laptop](assets/wireframes/motivation-desktop.png)
 ![Workouts page Mobile/Tablet](assets/wireframes/workouts-mobile-tablet.png)
-![Motivation page Laptop](assets/wireframes/workout-laptop.png)
+![Motivation page Laptop](assets/wireframes/workout-desktop.png)
 ![Exercises page Mobile/Tablet](assets/wireframes/exercises-mobile-tablet.png)
-![Exercises page Laptop](assets/wireframes/exercises-laptop.png)
+![Exercises page Laptop](assets/wireframes/exercises-desktop.png)
 ![Contact page](assets/wireframes/contact-page.png)
 
 
