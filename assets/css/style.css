@@ -4,6 +4,9 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /* Body style rules */
@@ -26,12 +29,21 @@ h3  {
     font-family: Teko, sans-serif, Helvetica, arial;
 }
 
-/* remove default <a> styles */
+/* remove default <a> and <ul> styles */
 
 a {
     text-decoration: none;
     color: #000000;
 }
 
+ul {
+    list-style: none;
+}
 
+/* h1 style rules */
+
+h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
     
