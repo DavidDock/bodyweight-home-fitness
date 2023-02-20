@@ -90,6 +90,19 @@ header {
     padding: 0.25rem 0.5rem;
     border: 1px solid #cdcdcd;
     border-radius: 10px;
+}
+
+/* active nav-links and hover nav-links style  */
+
+.active-nav-link {
+    background-color: rgba(152, 211, 223, 0.2);
+}
+
+.header-list-item:hover {
+    background-color: rgba(152, 211, 223, 0.3);
+    font-weight: 800;
+    text-transform: uppercase;
+    transform: scale(1.2);
 
 }
 
