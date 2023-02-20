@@ -16,7 +16,8 @@ body {
     font-family: 'Ubuntu', sans-serif, Helvetica, arial;
     font-weight: 400;
     text-align: center;
-    font-size: 100%; /* Sets font-size for mobile devices */
+    font-size: 100%;
+    /* Sets font-size for mobile devices */
     background-image: radial-gradient(#cdcdcd, #e9e9e9);
 
 }
@@ -25,7 +26,7 @@ body {
 
 h1,
 h2,
-h3  {
+h3 {
 
     font-family: Teko, sans-serif, Helvetica, arial;
 }
@@ -65,7 +66,10 @@ header {
     animation-iteration-count: 10;
 }
 
-@keyframes blink { 50% { border-color: #cdcdcd;}
+@keyframes blink {
+    50% {
+        border-color: #cdcdcd;
+    }
 
 }
 
@@ -106,4 +110,16 @@ header {
 
 }
 
+/* flex footer with social media links */
+
+footer {
+    background-image: linear-gradient(to top, #88bbd6, #e9e9e9);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-link{
+    font-size: 2rem;
+    margin: 1.5rem 0 1rem 0;
     
+}
