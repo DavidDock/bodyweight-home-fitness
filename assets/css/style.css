@@ -303,8 +303,8 @@ footer {
     grid-area: three;
     background-image: url(/assets/images/boxing-gloves.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 60%;
+    background-size: 100% 140%;
+    background-position: 0 60%;
 }
 
 #article1 {
@@ -318,11 +318,17 @@ footer {
     background-image: url(/assets/images/pull-up-warehouse.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 40% 65%;
+    background-position: 40% 50%;
 }
+
+/* background image on quote 4 */
 
 #quote4 {
     grid-area: six;
+    background-image: url(/assets/images/squat-man-lady.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
 }
 
 #article2 {
