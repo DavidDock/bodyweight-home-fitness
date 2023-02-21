@@ -44,9 +44,11 @@
         </nav>
     </header>
 
-    <!-- Section about the contact form-->
+    <!-- container for page content -->
 
     <div class="form-page-container">
+
+        <!-- Section about the contact form-->
 
         <section>
 
@@ -66,35 +68,20 @@
 
         <!-- Contact form for suggested workouts, method is 'get' for simulated response instead of post-->
 
-        <div>
 
-            <form action="contact-response.html" method="get">
+        <form action="contact-response.html" method="get">
 
-                <div>
+            <input type="text" id="name" name="name" placeholder="Add your name if you like"
+                aria-label="Type your name here" rows="40" columns="50">
 
-                    <input type="text" id="name" name="name" placeholder="Add your name if you like"
-                        aria-label="Type your name here">
+            <textarea id="message" name="message" placeholder="Put in suggested workout or message here"
+                required></textarea>
 
-                </div>
+            <button type="submit">Send</button>
 
-                <div>
+        </form>
 
-                    <label for="message">Workout Suggestion Or Message</label>
 
-                </div>
-
-                <div>
-
-                    <textarea id="message" name="message" placeholder="Put in suggested workout or message here"
-                        required></textarea>
-
-                </div>
-
-                <button type="submit">Send</button>
-
-            </form>
-
-        </div>
 
     </div>
 
