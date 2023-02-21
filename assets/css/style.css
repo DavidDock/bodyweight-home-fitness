@@ -524,6 +524,7 @@ input {
     margin: auto;
     border: none;
     color: black;
+    font-size: 0.75rem;
 }
 
 textarea {
