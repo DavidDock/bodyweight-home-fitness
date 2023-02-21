@@ -240,7 +240,7 @@ footer {
 
 .about-container {
     background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
-    box-shadow: 5px 10px 8px #cdcdcd;
+    box-shadow: 5px 10px 8px #888888;
     border-radius: 10px;
 }
 
@@ -248,7 +248,7 @@ footer {
 
 .article-container {
     background-image: linear-gradient(to right, #88bbd6, #cdcdcd);
-    box-shadow: 5px 10px 8px #cdcdcd;
+    box-shadow: 5px 10px 8px #888888;
     border-radius: 10px;
 }
 
@@ -256,8 +256,9 @@ footer {
 
 .quote-container {
     background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
-    box-shadow: 5px 10px 8px #cdcdcd;
+    box-shadow: 5px 10px 8px #888888;
     border-radius: 10px;
+    font-weight: 800;
 }
 
 /* motivation grid container for whole motivation page */
