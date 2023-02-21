@@ -279,9 +279,9 @@ footer {
     grid-auto-columns: 1fr;
 }
 
-   /* media query for laptops and above */
+   /* media query for above 768px */
 
-   @media screen and (min-device-width: 1024px) {
+   @media screen and (min-device-width: 768px) {
     
     .motivation-container {
             
