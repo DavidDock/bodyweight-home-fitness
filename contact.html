@@ -46,64 +46,66 @@
 
     <!-- Section about the contact form-->
 
-    <section>
+    <div class="form-page-container">
 
-        <h2>It'll be Great To Hear From You.</h2>
+        <section>
 
-        <p>
-            Please use the contact form below to share your own workout example.
-            We love trying new workouts and we may add it into our <a href="workouts.html"
-                aria-label="Example workouts you can do at home">workouts</a> page.
-        </p>
-        <p>
-            We'd also like to hear what you think about the site or about anything that motivates you. So send us a
-            message using the form below.
-        </p>
+            <h2>It'll be Great To Hear From You.</h2>
 
-    </section>
+            <p>
+                Please use the contact form below to share your own workout example.
+                We love trying new workouts and we may add it into our <a href="workouts.html"
+                    aria-label="Example workouts you can do at home">workouts</a> page.
+            </p>
+            <p>
+                We'd also like to hear what you think about the site or about anything that motivates you. So send us a
+                message using the form below.
+            </p>
 
-    <!-- Contact form for suggested workouts, method is 'get' for simulated response instead of post-->
+        </section>
 
-    <div>
+        <!-- Contact form for suggested workouts, method is 'get' for simulated response instead of post-->
 
-        <form action="contact-response.html" method="get">
+        <div>
 
-            <div>
+            <form action="contact-response.html" method="get">
 
-                <input type="text" id="name" name="name" placeholder="Add your name if you like"
-                    aria-label="Type your name here">
+                <div>
 
-            </div>
+                    <input type="text" id="name" name="name" placeholder="Add your name if you like"
+                        aria-label="Type your name here">
 
-            <div>
+                </div>
 
-                <label for="message">Workout Suggestion Or Message</label>
+                <div>
 
-            </div>
+                    <label for="message">Workout Suggestion Or Message</label>
 
-            <div>
+                </div>
 
-                <textarea id="message" name="message" placeholder="Put in suggested workout or message here"
-                    required></textarea>
+                <div>
 
-            </div>
+                    <textarea id="message" name="message" placeholder="Put in suggested workout or message here"
+                        required></textarea>
 
-            <button type="submit">Send</button>
+                </div>
 
-        </form>
+                <button type="submit">Send</button>
+
+            </form>
+
+        </div>
 
     </div>
-
-
 
     <!-- footer with social media links -->
 
     <footer>
-        <a href="https://instagram.com" target="_blank" rel="noopener"
+        <a class="footer-link" href="https://instagram.com" target="_blank" rel="noopener"
             aria-label="Visit us on Instagram (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://facebook.com" target="_blank" rel="noopener"
+        <a class="footer-link" href="https://facebook.com" target="_blank" rel="noopener"
             aria-label="Visit us on Facebook (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://twitter.com" target="_blank" rel="noopener"
+        <a class="footer-link" href="https://twitter.com" target="_blank" rel="noopener"
             aria-label="Visit us on Twitter (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
     </footer>
 

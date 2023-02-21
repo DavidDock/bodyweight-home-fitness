@@ -484,3 +484,9 @@ footer {
     text-align: justify;
 
 }
+
+/* form page container */
+
+.form-page-container {
+    background-image: radial-gradient(#99d3df, #e9e9e9);
+}
