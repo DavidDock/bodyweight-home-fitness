@@ -432,6 +432,13 @@ footer {
     border-radius: 10px;
 }
 
+/* zoom effect on hover of image */
+
+.img-exercise:hover {
+
+    transform: scale(1.25);
+}
+
 /* workouts page container */
 
 .workouts-page-container {
