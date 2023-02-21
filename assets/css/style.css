@@ -381,7 +381,29 @@ footer {
 .figure-exercise {
     padding: 1rem;
     flex-basis: 50%;
+
 }
+
+    /* media query for tablets and above */
+
+    @media screen and (min-device-width: 800px) {
+    
+    .figure-exercise {
+            flex-basis: 33%;
+    }
+}
+
+   /* media query for laptops */
+
+   @media screen and (min-device-width: 1024px) {
+    
+    .figure-exercise {
+            flex-basis: 25%;
+    }
+}
+        
+
+
 
 .img-exercise {
     width: 100%;
