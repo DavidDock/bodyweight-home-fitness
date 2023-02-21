@@ -51,7 +51,7 @@ h1 {
 
 /* h2 style rules */
 
-h2 {
+h2, h3 {
     font-size: 1.25rem;
     letter-spacing: 1px;
     text-align: center;
@@ -361,6 +361,13 @@ footer {
     padding: 0.25rem;
     border-radius: 10px;
 }
+
+/* excercise page container */
+
+.exercise-page-container {
+    margin: 1rem;
+}
+
 
 
 
