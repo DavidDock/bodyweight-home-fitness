@@ -279,6 +279,24 @@ footer {
     grid-auto-columns: 1fr;
 }
 
+   /* media query for laptops and above */
+
+   @media screen and (min-device-width: 1024px) {
+    
+    .motivation-container {
+            
+        grid-template-areas: 
+            'one one two'
+            'one one three'
+            'four four five'
+            'four four six'
+            'seven seven eight'
+            'seven seven nine'
+            'ten ten eleven'
+            'ten ten twelve';
+    }
+}
+
 
 
 #about-motivation {
@@ -386,7 +404,7 @@ footer {
 
     /* media query for tablets and above */
 
-    @media screen and (min-device-width: 800px) {
+    @media screen and (min-device-width: 768px) {
     
     .figure-exercise {
             flex-basis: 33%;
