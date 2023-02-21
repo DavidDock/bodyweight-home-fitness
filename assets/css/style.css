@@ -49,13 +49,19 @@ h1 {
     letter-spacing: 1px;
 }
 
-/* h2 style rules */
+/* h2 and h3 style rules */
 
 h2, h3 {
     font-size: 1.25rem;
     letter-spacing: 1px;
     text-align: center;
     padding: 0.5rem;
+}
+
+/* text justify style rules */
+
+.justify-text {
+    text-align: justify;
 }
 
 /* header and nav */
@@ -419,12 +425,26 @@ footer {
             flex-basis: 25%;
     }
 }
-        
-
-
+    
 
 .img-exercise {
     width: 100%;
+    border-radius: 10px;
+}
+
+/* workouts page container */
+
+.workouts-page-container {
+    margin: 1rem;
+
+}
+
+.workouts-container {
+    background-image: linear-gradient(to right, #88bbd6, #cdcdcd);
+    box-shadow: 5px 10px 8px #888888;
+    margin: 1rem 0;
+    font-size: 0.75rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 
