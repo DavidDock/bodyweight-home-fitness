@@ -366,8 +366,27 @@ footer {
 
 .exercise-page-container {
     margin: 1rem;
+
 }
 
+/* exercise flex photo grid */
+
+.flex-photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.figure-exercise {
+    padding: 1rem;
+    flex-basis: 50%;
+}
+
+.img-exercise {
+    width: 100%;
+    border-radius: 10px;
+}
 
 
 
