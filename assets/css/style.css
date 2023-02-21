@@ -353,5 +353,13 @@ footer {
     grid-area: twelve;
 }
 
+.quote-text-container {
+
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+
 
 
