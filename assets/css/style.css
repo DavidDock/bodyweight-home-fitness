@@ -32,13 +32,11 @@ h3 {
 }
 
 /* remove default <a> and <ul> styles */
-
 a {
     text-decoration: none;
     color: #000000;
     font-weight: 800;
 }
-
 
 ul {
     list-style: none;
