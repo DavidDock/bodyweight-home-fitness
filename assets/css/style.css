@@ -303,7 +303,7 @@ footer {
 
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .person {
         font-size: 1.5rem;
@@ -339,7 +339,7 @@ footer {
     border-radius: 10px;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .article-container {
         font-size: 1rem;
@@ -366,7 +366,7 @@ footer {
     margin: auto 0;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .quote-text-container {
         font-size: 1.5rem;
@@ -393,7 +393,7 @@ footer {
 
 /* media query for above 768px */
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .motivation-container {
 
@@ -413,7 +413,7 @@ footer {
     grid-area: one;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     #about-motivation {
         font-size: 1rem;
@@ -440,7 +440,7 @@ footer {
     grid-area: four;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     #article1 {
         padding-top: 4rem;
@@ -484,7 +484,7 @@ footer {
     grid-area: twelve;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     #quote5,
     #quote6,
