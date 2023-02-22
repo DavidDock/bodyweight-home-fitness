@@ -76,6 +76,14 @@ h3 {
     }
 }
 
+@media screen and (min-device-width: 768px) {
+
+    .h3 {
+        font-size: 1.75rem;
+    }
+}
+
+
 /* text justify style rules */
 
 .justify-text {
@@ -547,8 +555,16 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 95%;
+    min-width: 100%;
 
+}
+
+@media screen and (min-device-width: 768px) {
+
+    .about-workouts {
+        font-size: 1rem;
+        padding-top: 2rem;
+    }
 }
 
 .workout-flex-basis {
@@ -561,7 +577,7 @@ footer {
 @media screen and (min-device-width: 768px) {
 
     .workout-flex-basis {
-        flex-basis: 47%;
+        flex-basis: 47.5%;
     }
 
 }
@@ -575,6 +591,17 @@ footer {
 
 }
 
+@media screen and (min-device-width: 768px) {
+
+    .workouts-container {
+        font-size: 1rem;
+    }
+}
+
+ol {
+    padding-left: 1rem;
+}
+
 /* links in workouts container */
 
 .link-container {
@@ -583,9 +610,17 @@ footer {
     border-radius: 10px;
     font-size: 0.75rem;
     padding: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     text-align: justify;
 
+}
+
+@media screen and (min-device-width: 768px) {
+
+    .link-container {
+        font-size: 1rem;
+        margin: 1rem;
+    }
 }
 
 
@@ -594,6 +629,7 @@ footer {
 
 .workout-link-list {
     list-style: square;
+    padding: 1rem;
 }
 
 /* form page container */
