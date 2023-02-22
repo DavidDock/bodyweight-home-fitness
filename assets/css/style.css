@@ -69,6 +69,13 @@ h3 {
     padding: 0.5rem;
 }
 
+@media screen and (min-device-width: 768px) {
+
+    .h2 {
+        font-size: 1.75rem;
+    }
+}
+
 /* text justify style rules */
 
 .justify-text {
@@ -285,6 +292,15 @@ footer {
     font-family: teko;
     font-weight: 400;
     font-size: 0.75rem;
+
+}
+
+@media screen and (min-device-width: 768px) {
+
+    .person {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
 }
 
 /* motivation page general style to containers and font */
@@ -306,12 +322,28 @@ footer {
     border-radius: 10px;
 }
 
+@media screen and (min-device-width: 768px) {
+
+    .about-container {
+        font-size: 1rem;
+        padding-top: 3rem;
+    }
+}
+
+
 /* article container styling */
 
 .article-container {
     background-image: linear-gradient(to right, #88bbd6, #cdcdcd);
     box-shadow: 5px 10px 8px #888888;
     border-radius: 10px;
+}
+
+@media screen and (min-device-width: 768px) {
+
+    .article-container {
+        font-size: 1rem;
+    }
 }
 
 /* quote container styling */
@@ -334,6 +366,13 @@ footer {
     margin: auto 0;
 }
 
+@media screen and (min-device-width: 768px) {
+
+    .quote-text-container {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+}
 /* motivation grid container for whole motivation page */
 
 .motivation-container {
@@ -392,6 +431,12 @@ footer {
     grid-area: four;
 }
 
+@media screen and (min-device-width: 768px) {
+
+    #article1 {
+        padding-top: 4rem;
+    }
+}
 /* background image on quote 3 */
 
 #quote3 {
@@ -429,6 +474,17 @@ footer {
 #quote8 {
     grid-area: twelve;
 }
+
+@media screen and (min-device-width: 768px) {
+
+    #quote5,
+    #quote6,
+    #quote7,
+    #quote8 {
+        padding-top: 1.5rem;
+    }
+}
+
 
 /* excercise page container */
 
