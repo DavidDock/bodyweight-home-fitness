@@ -744,6 +744,14 @@ input {
     font-size: 0.5rem;
 }
 
+@media screen and (min-device-width: 768px) {
+
+    input {
+        font-size: 1rem;
+        
+    }
+}
+
 textarea {
     padding: 3rem 0;
     text-align: center;
@@ -754,16 +762,37 @@ textarea {
 
 }
 
+@media screen and (min-device-width: 768px) {
+
+    textarea {
+        font-size: 1.25rem;
+        
+    }
+}
+
 button {
-    width: 33%;
+    width: 20%;
     height: 2rem;
     border-radius: 10px;
     margin: auto;
     background-color: #cdcdcd;
-    border: none;
     margin-bottom: 1rem;
     font-family: teko;
     font-size: 1.25rem;
+    border: solid 0.75px #000000;
+}
+
+button:hover {
+    transform: scale(1.5);
+}
+
+@media screen and (min-device-width: 768px) {
+
+    button {
+        font-size: 1.5rem;
+        border: solid 1.5px #000000;
+        
+    }
 }
 
 /* thank-you for contacting */
