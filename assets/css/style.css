@@ -515,12 +515,16 @@ footer {
     padding: 1rem;
 }
 
+/* media query for 768px and above */
+
 @media screen and (min-device-width: 768px) {
 
     .about-exercise-container {
         font-size: 1.25rem;
     }
 }
+
+/* media query for 1024px and above */
 
 @media screen and (min-device-width: 1024px) {
 
@@ -755,10 +759,30 @@ button {
     text-align: center;
 }
 
+
 .thank-you-text {
 
     font-size: 1.5rem;
 }
+
+/* media query for 768px and above */
+
+@media screen and (min-device-width: 768px) {
+
+    .thank-you-text {
+          font-size: 2rem;  
+        }
+    }
+
+    /* media query for 1024px and above */
+
+@media screen and (min-device-width: 1024px) {
+
+    .thank-you-text {
+          font-size: 3rem;  
+        }
+    }
+
 
 /* thank-you images */
 
@@ -768,6 +792,7 @@ button {
     margin: 0 auto;
     width: 100%;
 }
+
 
 .figure-thank-you {
     padding: 0.25rem;
