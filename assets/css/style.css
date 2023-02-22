@@ -490,6 +490,12 @@ footer {
 
 }
 
+/* workout link list */
+
+.workout-link-list {
+    list-style: square;
+}
+
 /* form page container */
 
 .form-page-body {
