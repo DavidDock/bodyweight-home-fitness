@@ -515,6 +515,23 @@ footer {
     padding: 1rem;
 }
 
+@media screen and (min-device-width: 768px) {
+
+    .about-exercise-container {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-device-width: 1024px) {
+
+    .about-exercise-container {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+}
+
+
+
 
 /* exercise flex photo grid */
 
