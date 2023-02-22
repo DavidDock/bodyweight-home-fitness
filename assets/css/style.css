@@ -47,9 +47,9 @@ h1 {
     letter-spacing: 1px;
 }
 
-/* media query for 768px and above */
+/* media query for 600px and above */
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     h1 {
         font-size: 2.5rem;
@@ -67,14 +67,14 @@ h3 {
     padding: 0.5rem;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .h2 {
         font-size: 1.75rem;
     }
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .h3 {
         font-size: 1.75rem;
@@ -163,7 +163,7 @@ header {
 
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .header-list-item {
         font-size: 1.25rem;
@@ -207,7 +207,7 @@ footer {
 
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .footer-link {
         font-size: 2rem;
@@ -296,7 +296,7 @@ footer {
     border-radius: 25px;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .hero-quote-container {
         font-size: 1.5rem;
@@ -313,7 +313,7 @@ footer {
 
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .person-hero {
         font-size: 1.5rem;
@@ -415,7 +415,7 @@ footer {
     grid-auto-columns: 1fr;
 }
 
-/* media query for above 768px */
+/* media query for above 600px */
 
 @media screen and (min-device-width: 600px) {
 
@@ -539,9 +539,9 @@ footer {
     padding: 1rem;
 }
 
-/* media query for 768px and above */
+/* media query for 600px and above */
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .about-exercise-container {
         font-size: 1.25rem;
@@ -576,9 +576,9 @@ footer {
 
 }
 
-/* media query for 768px and above */
+/* media query for 600px and above */
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .figure-exercise {
         flex-basis: 33%;
@@ -715,7 +715,7 @@ ol {
     text-align: center;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .about-form-container {
         font-size: 1rem;
@@ -744,7 +744,7 @@ input {
     font-size: 0.5rem;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     input {
         font-size: 1rem;
@@ -762,7 +762,7 @@ textarea {
 
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     textarea {
         font-size: 1.25rem;
@@ -786,7 +786,7 @@ button:hover {
     transform: scale(1.5);
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     button {
         font-size: 1.5rem;
@@ -818,9 +818,9 @@ button:hover {
     font-size: 1.5rem;
 }
 
-/* media query for 768px and above */
+/* media query for 600px and above */
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 600px) {
 
     .thank-you-text {
           font-size: 2rem;  
