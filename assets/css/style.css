@@ -322,14 +322,6 @@ footer {
     border-radius: 10px;
 }
 
-@media screen and (min-device-width: 768px) {
-
-    .about-container {
-        font-size: 1rem;
-        padding-top: 3rem;
-    }
-}
-
 
 /* article container styling */
 
@@ -412,6 +404,15 @@ footer {
 #about-motivation {
     grid-area: one;
 }
+
+@media screen and (min-device-width: 768px) {
+
+    #about-motivation {
+        font-size: 1rem;
+        padding-top: 3rem;
+    }
+}
+
 
 /* background image on quote 1 */
 
@@ -560,7 +561,7 @@ footer {
 @media screen and (min-device-width: 768px) {
 
     .workout-flex-basis {
-        flex-basis: 48%;
+        flex-basis: 47%;
     }
 
 }
