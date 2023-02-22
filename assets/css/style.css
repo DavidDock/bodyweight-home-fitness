@@ -16,8 +16,6 @@ body {
     font-family: 'Ubuntu', sans-serif, Helvetica, arial;
     font-weight: 400;
     text-align: center;
-    font-size: 1rem;
-    /* Sets font-size for mobile devices */
     background-image: radial-gradient(#cdcdcd, #e9e9e9);
 
 }
@@ -112,12 +110,17 @@ header {
     font-style: normal;
 }
 
-
 @keyframes blink {
     50% {
         border-color: #cdcdcd;
     }
 
+}
+
+@media screen and (min-device-width: 1024px) {
+    .logo {
+        margin-left: 2rem;
+    }
 }
 
 /* flex nav-container contining logo and naigation list */
@@ -127,11 +130,24 @@ header {
     flex-flow: column;
 }
 
+@media screen and (min-device-width: 1024px) {
+    .nav-container {
+        flex-flow: row;
+        padding: 3rem 1rem 2rem 1rem;
+    }
+}
+
 /* flex list for navigation */
 
 .header-ul {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media screen and (min-device-width: 1024px) {
+    .header-ul {
+        margin-left: auto;
+    }
 }
 
 .header-list-item {
@@ -152,6 +168,13 @@ header {
     .header-list-item {
         font-size: 1.25rem;
         padding: 0.8rem 0.7rem;
+    }
+}
+
+@media screen and (min-device-width: 1024px) {
+    .header-list-item {
+        margin: 1.5rem;
+        height: fit-content;
     }
 }
 
