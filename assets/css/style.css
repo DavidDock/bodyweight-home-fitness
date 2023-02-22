@@ -670,6 +670,15 @@ ol {
     text-align: center;
 }
 
+@media screen and (min-device-width: 768px) {
+
+    .about-form-container {
+        font-size: 1rem;
+        padding: 2rem;
+    }
+}
+
+
 /* contact form */
 
 form {
