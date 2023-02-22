@@ -173,8 +173,9 @@ header {
 
 @media screen and (min-device-width: 1024px) {
     .header-list-item {
-        margin: 1.5rem;
         height: fit-content;
+        margin: 3rem 1rem;
+        padding: 0.5rem 0.4rem;
     }
 }
 
