@@ -48,7 +48,7 @@ One of the main messages in this website is that any amount of exercise is bette
 
 ## **Imagery** ##
 
-The images where carefully chosesn to match the breif of the website, simple, not over-whelming but are distinctive. The images in the home page and contact response page are subtle in colour but are in keeping of the culture of the audience. The exercise images are agian simple but easy to digest. 
+The images where carefully chosesn to match the breif of the website: simple, not over-whelming yet distinctive. The images in the home page and contact response page are subtle in colour but are in keeping of the culture of the audience. The exercise images are agian simple but easy to digest. 
 
 ## **Wireframes**
 
@@ -92,14 +92,14 @@ The Nav bar is present on all pages of the website and is very clear to see allo
 
 ![Footer](assets/media/footer.jpg)
 
-The footer is large, visible and responsive to all devises, heping with simple navigation. I have included a hover toggle to the links in improve ux. These icons were imported from font awesome using Javascript at the bottom of the page.
+The footer is large, visible and responsive to all devices, heping with simple navigation. I have included a hover toggle to the links to improve UX`. These icons were imported from font awesome using Javascript at the bottom of the page.
 
 ## **Anchor tags**
  I wanted to keep the tages in keeping with the website but visible for users so the default style was removed but the link is highlighed by bold font. The only exeption to this was in the contact response page where the social medial links needed an underline text decoration to help with highlighting the link.
 
  ## **Home Page**
 
- I opted for a subtle but stylish home page so not to overwhelm and provide intriuge for the user, with a artistic image and 3 motivaional quotes. With the easy to access nav bar it helps the user quickly click onto a subject they are inertested in and provide a great start to the websites journey.... intoduction, motivation, workouts/exercise, contact.
+ I opted for a subtle but stylish home page so not to overwhelm and provide intriuge for the user, with a artistic image and 3 motivaional quotes. With the easy to access nav bar it helps the user quickly click onto a subject they are inertested in and provide a great start to their websites journey.... intoduction-motivation-workouts/exercise-contact.
 
  ## **Motivation Page**
 
@@ -107,8 +107,16 @@ The footer is large, visible and responsive to all devises, heping with simple n
  This section states the goals for the webisite, hoping to motivate and continue their fitness journey.
 
  ### Articles and quotes
-Here are three short, easy to digest articles to read, starting with advice for a begginer. These articles are broken up by motivatonal quotes to inspire the user. Initially I intended to add background images to the quotes but it did not work stylistically. Each article has a link to the source and each quote has  it's source named.
-The layout for this page has a beakpoint of 600px to make it easy viewing for each device using responsive layouts throughout.
+Here are three short, easy to digest articles to read, starting with advice for a beginner. They were chosen because they are consise, motivational and intended for a wide audience. These articles are broken up by motivatonal quotes to inspire the user. Initially I intended to add background images to the quotes but it did not work stylistically. Each article has a link to the source and each quote has  it's source named.
+CSS grid was used to change layout at 600px breakpoint to ensure good UX.
+
+## **Workouts Page**
+The workout page has an introduction to encourage users and 5 exercise examples. The exercise examples are refernced with a link to the site that created it.
+Re-assuring messages are placed throughout the workouts to promote the common themes of the website and links to other helpful sites are provided for users to continue thier fitness journey.
+This page is fully responsive and changes css layout using flex at 768px devices. Initially I felt 1024px would be the breakpoint instead, but after inital viewing this had to be changed.
+
+
+## **Exercise Page**
 
 
 
