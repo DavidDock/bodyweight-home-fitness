@@ -278,7 +278,7 @@ footer {
     background: url('../images/hero.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: 45%;
+    background-position: 60% 20%;
     display: flex;
     flex-flow: column;
 }
