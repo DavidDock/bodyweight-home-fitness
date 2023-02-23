@@ -274,11 +274,11 @@ footer {
 /* Hero container */
 
 .hero-container {
-    background-size: cover;
     background: url('../images/hero.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: 55% 15%;
+    background-position: 50%;
     display: flex;
     flex-flow: column;
 }
