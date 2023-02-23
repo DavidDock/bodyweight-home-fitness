@@ -36,6 +36,16 @@ a {
     font-weight: 800;
 }
 
+/* link to footer */
+
+.link-to-footer {
+    text-decoration: underline;
+}
+
+.link-to-footer:hover {
+    font-size: 1.5rem;
+}
+
 ul {
     list-style: none;
 }
