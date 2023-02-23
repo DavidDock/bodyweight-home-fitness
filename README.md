@@ -111,12 +111,15 @@ Here are three short, easy to digest articles to read, starting with advice for 
 CSS grid was used to change layout at 600px breakpoint to ensure good UX.
 
 ## **Workouts Page**
-The workout page has an introduction to encourage users and 5 exercise examples. The exercise examples are refernced with a link to the site that created it.
+The workout page has an introduction to encourage users and 5 workout examples. The workout examples are refernced with a link to the site that created it.
 Re-assuring messages are placed throughout the workouts to promote the common themes of the website and links to other helpful sites are provided for users to continue thier fitness journey.
-This page is fully responsive and changes css layout using flex at 768px devices. Initially I felt 1024px would be the breakpoint instead, but after inital viewing this had to be changed.
+This page is fully responsive and changes css layout using flex at 768px devices. Initially I felt 1024px would be the breakpoint, but after inital viewing this had to be changed.
 
 
 ## **Exercise Page**
+
+This exercise example page has an introduction and images of how to do 18 home exercise. In keeping with the website's goals these exercise guides are as accessible and simple as can be with straight-forward images on how to complete each exercise so not to over-whelm. These images have an excellent 'alt' value for exercise description for people that need it.
+This exercise image gallery is fully responsive, changing layout at different screen breakpoints to ensure good UX. 
 
 
 
