@@ -275,7 +275,7 @@ footer {
 
 .hero-container {
     background-size: cover;
-    background-image: url(/assets/images/hero.jpg);
+    background: url('../images/hero.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 45%;
