@@ -812,6 +812,14 @@ button:hover {
     text-align: center;
 }
 
+/* media query for 600px and above */
+
+@media (min-width: 600px) {
+
+    .thank-you-container {
+          margin-top: 6rem;  
+        }
+    }
 
 .thank-you-text {
 
@@ -846,11 +854,20 @@ button:hover {
     width: 100%;
 }
 
+    /* media query for 600px and above */
+
+    @media (min-width: 600px) {
+
+        .thank-you-image-container {
+              margin: 4rem 0;
+            }
+        }
+
 
 .figure-thank-you {
     padding: 0.25rem;
     flex-basis: 100%;
-    margin-bottom: 2rem;
+
 
 }
 
@@ -860,6 +877,7 @@ button:hover {
 
         .figure-thank-you {
               flex-basis: 50%;  
+              margin: 4rem 0;
             }
         }
     
