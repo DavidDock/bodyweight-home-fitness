@@ -49,7 +49,7 @@ h1 {
 
 /* media query for 600px and above */
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     h1 {
         font-size: 2.5rem;
@@ -67,14 +67,14 @@ h3 {
     padding: 0.5rem;
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .h2 {
         font-size: 1.75rem;
     }
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .h3 {
         font-size: 1.75rem;
@@ -117,7 +117,7 @@ header {
 
 }
 
-@media screen and (min-device-width: 1024px) {
+@media (min-width: 1024px) {
     .logo {
         margin-left: 2rem;
     }
@@ -130,7 +130,7 @@ header {
     flex-flow: column;
 }
 
-@media screen and (min-device-width: 1024px) {
+@media (min-width: 1024px) {
     .nav-container {
         flex-flow: row;
         padding: 3rem 1rem 2rem 1rem;
@@ -144,7 +144,7 @@ header {
     justify-content: space-evenly;
 }
 
-@media screen and (min-device-width: 1024px) {
+@media (min-width: 1024px) {
     .header-ul {
         margin-left: auto;
     }
@@ -163,7 +163,7 @@ header {
 
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .header-list-item {
         font-size: 1.25rem;
@@ -171,7 +171,7 @@ header {
     }
 }
 
-@media screen and (min-device-width: 1024px) {
+@media (min-width: 1024px) {
     .header-list-item {
         height: fit-content;
         margin: 3rem 1rem;
@@ -207,7 +207,7 @@ footer {
 
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .footer-link {
         font-size: 2rem;
@@ -296,7 +296,7 @@ footer {
     border-radius: 25px;
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .hero-quote-container {
         font-size: 1.5rem;
@@ -313,7 +313,7 @@ footer {
 
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .person-hero {
         font-size: 1.5rem;
@@ -327,7 +327,7 @@ footer {
 
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .person {
         font-size: 1.5rem;
@@ -363,7 +363,7 @@ footer {
     border-radius: 10px;
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .article-container {
         font-size: 1rem;
@@ -390,7 +390,7 @@ footer {
     margin: auto 0;
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .quote-text-container {
         font-size: 1.5rem;
@@ -417,7 +417,7 @@ footer {
 
 /* media query for above 600px */
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .motivation-container {
 
@@ -437,7 +437,7 @@ footer {
     grid-area: one;
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     #about-motivation {
         font-size: 1rem;
@@ -464,7 +464,7 @@ footer {
     grid-area: four;
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     #article1 {
         padding-top: 4rem;
@@ -508,7 +508,7 @@ footer {
     grid-area: twelve;
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     #quote5,
     #quote6,
@@ -541,7 +541,7 @@ footer {
 
 /* media query for 600px and above */
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .about-exercise-container {
         font-size: 1.25rem;
@@ -550,7 +550,7 @@ footer {
 
 /* media query for 1024px and above */
 
-@media screen and (min-device-width: 1024px) {
+@media (min-width: 1024px) {
 
     .about-exercise-container {
         font-size: 1.25rem;
@@ -578,7 +578,7 @@ footer {
 
 /* media query for 600px and above */
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .figure-exercise {
         flex-basis: 33%;
@@ -587,7 +587,7 @@ footer {
 
 /* media query for laptops */
 
-@media screen and (min-device-width: 1024px) {
+@media (min-width: 1024px) {
 
     .figure-exercise {
         flex-basis: 25%;
@@ -618,7 +618,7 @@ footer {
 
 }
 
-@media screen and (min-device-width: 768px) {
+@media (min-width: 768px) {
 
     .about-workouts {
         font-size: 1rem;
@@ -633,7 +633,7 @@ footer {
 
 /* media query for 768px and above */
 
-@media screen and (min-device-width: 768px) {
+@media (min-width: 768px) {
 
     .workout-flex-basis {
         flex-basis: 47.5%;
@@ -650,7 +650,7 @@ footer {
 
 }
 
-@media screen and (min-device-width: 768px) {
+@media (min-width: 768px) {
 
     .workouts-container {
         font-size: 1rem;
@@ -674,7 +674,7 @@ ol {
 
 }
 
-@media screen and (min-device-width: 768px) {
+@media (min-width: 768px) {
 
     .link-container {
         font-size: 1rem;
@@ -715,7 +715,7 @@ ol {
     text-align: center;
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .about-form-container {
         font-size: 1rem;
@@ -744,7 +744,7 @@ input {
     font-size: 0.5rem;
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     input {
         font-size: 1rem;
@@ -762,7 +762,7 @@ textarea {
 
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     textarea {
         font-size: 1.25rem;
@@ -786,7 +786,7 @@ button:hover {
     transform: scale(1.5);
 }
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     button {
         font-size: 1.5rem;
@@ -820,7 +820,7 @@ button:hover {
 
 /* media query for 600px and above */
 
-@media screen and (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .thank-you-text {
           font-size: 2rem;  
@@ -829,7 +829,7 @@ button:hover {
 
     /* media query for 1024px and above */
 
-@media screen and (min-device-width: 1024px) {
+@media (min-width: 1024px) {
 
     .thank-you-text {
           font-size: 3rem;  
