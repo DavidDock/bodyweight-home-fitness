@@ -47,6 +47,7 @@ One of the main messages in this website is that any amount of exercise is bette
 
 ## **Imagery** ##
 
+The images where carefully chosesn to match the breif of the website, simple, over-whelming but are distinctiv. The images in the home page and contact response page are subtle in colour but are in keeping of the culture of the audience. The exercise images are agian simple but easy to digest. 
 
 ## **Wireframes**
 
@@ -55,12 +56,13 @@ Wireframes were made with Balsamiq for Mobile, Tablet and Laptop devices.
 
 ![Home page](assets/wireframes/home-page.png)
 ![Motivation page Mobile/Tablet](assets/wireframes/motivation-mobile-tablet.png)
-![Motivation page laptop](assets/wireframes/motivation-desktop.png)
+![Motivation page desktop](assets/wireframes/motivation-desktop.png)
 ![Workouts page Mobile/Tablet](assets/wireframes/workouts-mobile-tablet.png)
-![Motivation page Laptop](assets/wireframes/workout-desktop.png)
+![Motivation page desktop](assets/wireframes/workout-desktop.png)
 ![Exercises page Mobile/Tablet](assets/wireframes/exercises-mobile-tablet.png)
-![Exercises page Laptop](assets/wireframes/exercises-desktop.png)
+![Exercises page desktop](assets/wireframes/exercises-desktop.png)
 ![Contact page](assets/wireframes/contact-page.png)
+![Contact response page](assets/wireframes/contact-response.png)
 
 
 ## **Color Scheme and Typography**
@@ -73,5 +75,23 @@ To meet WCAG 2.0 criteria, the color scheme was then passed to [eightshapes.com]
 I again wanted to use simple yet exiting typography which is easy to read. I found my fonts on [sliderrevolution.com](https://www.sliderrevolution.com/design/font-combinations/).
 
 ![Typography](assets/media/font-combination.png)
+
+## **Features**
+
+## Features Across All Pages
+
+## **Header and Nav bar**
+
+![Header](assets/media/mobile-tablet-header.jpg)
+![Header](assets/media/desktop-header.jpg)
+
+
+
+
+
+
+
+
+
 
 
