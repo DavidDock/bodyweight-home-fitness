@@ -1,6 +1,7 @@
 # **Bodyweight Home Fitness**
 ## **Introduction**
 Bodyweight Home Fitness is a site that provides motivation for people to exercise at home. Giving both exercise and workout examples to help people achive their finess goal.
+![Website home page in differnt devices](assets/media/devices.jpg)
 
 ## **UX**
 
@@ -47,7 +48,7 @@ One of the main messages in this website is that any amount of exercise is bette
 
 ## **Imagery** ##
 
-The images where carefully chosesn to match the breif of the website, simple, over-whelming but are distinctiv. The images in the home page and contact response page are subtle in colour but are in keeping of the culture of the audience. The exercise images are agian simple but easy to digest. 
+The images where carefully chosesn to match the breif of the website, simple, not over-whelming but are distinctive. The images in the home page and contact response page are subtle in colour but are in keeping of the culture of the audience. The exercise images are agian simple but easy to digest. 
 
 ## **Wireframes**
 
@@ -76,14 +77,44 @@ I again wanted to use simple yet exiting typography which is easy to read. I fou
 
 ![Typography](assets/media/font-combination.png)
 
-## **Features**
-
-## Features Across All Pages
+# **Features**
 
 ## **Header and Nav bar**
 
 ![Header](assets/media/mobile-tablet-header.jpg)
 ![Header](assets/media/desktop-header.jpg)
+
+The Logo/title of Bodyweight Home Workouts is clear, simple and stylish and responsive to all devices. It also acts as a link to the home page. It has an added style option of a subtle blinking boarder to gain attention.
+
+The Nav bar is present on all pages of the website and is very clear to see allowing for easy navigation, even for the casulal or first time user. The active page is highlighted and a hover effect is also used to enhance ux. 
+
+## **Footer**
+
+![Footer](assets/media/footer.jpg)
+
+The footer is large, visible and responsive to all devises, heping with simple navigation. I have included a hover toggle to the links in improve ux. These icons were imported from font awesome using Javascript at the bottom of the page.
+
+## **Anchor tags**
+ I wanted to keep the tages in keeping with the website but visible for users so the default style was removed but the link is highlighed by bold font. The only exeption to this was in the contact response page where the social medial links needed an underline text decoration to help with highlighting the link.
+
+ ## **Home Page**
+
+ I opted for a subtle but stylish home page so not to overwhelm and provide intriuge for the user, with a artistic image and 3 motivaional quotes. With the easy to access nav bar it helps the user quickly click onto a subject they are inertested in and provide a great start to the websites journey.... intoduction, motivation, workouts/exercise, contact.
+
+ ## **Motivation Page**
+
+ ### About
+ This section states the goals for the webisite, hoping to motivate and continue their fitness journey.
+
+ ### Articles and quotes
+Here are three short, easy to digest articles to read, starting with advice for a begginer. These articles are broken up by motivatonal quotes to inspire the user. Initially I intended to add background images to the quotes but it did not work stylistically. Each article has a link to the source and each quote has  it's source named.
+The layout for this page has a beakpoint of 600px to make it easy viewing for each device using responsive layouts throughout.
+
+
+
+
+
+
 
 
 
