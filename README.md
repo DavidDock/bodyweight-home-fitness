@@ -82,7 +82,7 @@ I again wanted to use simple yet exiting typography which is easy to read. I fou
 ## **Header and Nav bar**
 
 ![Header](assets/media/mobile-tablet-header.jpg)
-![Header](assets/media/desktop-header.jpg)
+![Header](assets/media/desktop-header.jpg)<br>
 
 The Logo/title of Bodyweight Home Workouts is clear, simple and stylish and responsive to all devices. It also acts as a link to the home page. It has an added style option of a subtle blinking boarder to gain attention.
 
@@ -90,7 +90,7 @@ The Nav bar is present on all pages of the website and is very clear to see allo
 
 ## **Footer**
 
-![Footer](assets/media/footer.jpg)
+![Footer](assets/media/footer.jpg)<br>
 
 The footer is large, visible and responsive to all devices, heping with simple navigation. I have included a hover toggle to the links to improve UX`. These icons were imported from font awesome using Javascript at the bottom of the page.
 
@@ -100,9 +100,13 @@ The footer is large, visible and responsive to all devices, heping with simple n
 
  ## **Home Page**
 
+ ![Home Page](assets/media/home.jpg)]<br>
+
  I opted for a subtle but stylish home page so not to overwhelm and provide intriuge for the user, with a artistic image and 3 motivaional quotes. With the easy to access nav bar it helps the user quickly click onto a subject they are inertested in and provide a great start to their websites journey.... intoduction-motivation-workouts/exercise-contact.
 
  ## **Motivation Page**
+
+ ![Motivation Page](assets/media/motivation.jpg)<br>
 
 The motivation page has a section that states the goals for the webisite, hoping to motivate and continue the users' fitness journey.<br>
 There are three short, easy to digest articles to read. They were chosen because they are consise, motivational and intended for a wide audience. These articles are broken up by motivatonal quotes to inspire the user.<br>
@@ -111,6 +115,8 @@ Each article has a link to the source and each quote has  it's source named.<br>
 CSS grid was used to change layout at 600px breakpoint to ensure good UX.
 
 ## **Workouts Page**
+
+![Workouts Page](assets/media/workouts.jpg)<br>
 The workout page has an introduction to encourage users and 5 workout examples.<br>
 The workout examples are refernced with a link to the site that created it.<br>
 Re-assuring messages are placed throughout the workouts to promote the common themes of the website.<br>
@@ -119,6 +125,8 @@ This page is fully responsive and changes css layout using flex at 768px devices
 
 
 ## **Exercise Page**
+
+![Exercises Page](assets/media/exercise.jpg)<br>
 
 This exercise example page has an introduction  and images of how to do 18 home exercise.<br>
 In keeping with the websites goal, these exercise guides are as accessible and simple as can be with straight-forward images on how to complete each exercise so not to overwhelm. These images have an excellent 'alt' value for exercise description for people that need it.<br>
