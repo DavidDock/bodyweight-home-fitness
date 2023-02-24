@@ -198,7 +198,7 @@ header {
     .header-list-item {
         height: fit-content;
         margin: 3rem 1rem;
-        padding: 0.5rem 0.6rem;
+        padding: 0.6rem 0.7rem;
     }
 }
 
@@ -211,7 +211,7 @@ header {
 .header-list-item:hover {
     background-color: rgba(152, 211, 223, 0.3);
     font-weight: 900;
-    text-transform: uppercase;
+    text-decoration: underline;
 
 }
 
