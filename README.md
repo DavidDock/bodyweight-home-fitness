@@ -108,8 +108,9 @@ The footer is large, visible and responsive to all devices, heping with simple n
 
  ![Motivation Page](assets/media/motivation.jpg)<br>
 
-The motivation page has a section that states the goals for the webisite, hoping to motivate and continue the users' fitness journey.<br>
-There are three short, easy to digest articles to read. They were chosen because they are consise, motivational and intended for a wide audience. These articles are broken up by motivatonal quotes to inspire the user.<br>
+The motivation page has a section that states the goals for the webisite, hoping to motivate and help continue the users fitness journey.<br>
+There are three short articles to read. They were chosen because they are consise, motivational and intended for a wide audience.<br>
+These articles are broken up by motivatonal quotes to inspire the user.<br>
 Initially I intended to add background images to the quotes but it did not work stylistically.<br>
 Each article has a link to the source and each quote has  it's source named.<br>
 CSS grid was used to change layout at 600px breakpoint to ensure good UX.
@@ -129,7 +130,7 @@ This page is fully responsive and changes css layout using flex at 768px devices
 ![Exercises Page](assets/media/exercise.jpg)<br>
 
 This exercise example page has an introduction  and images of how to do 18 home exercise.<br>
-In keeping with the websites goal, these exercise guides are as accessible and simple as can be with straight-forward images on how to complete each exercise so not to overwhelm. These images have an excellent 'alt' value for exercise description for people that need it.<br>
+In keeping with the websites goal, these exercise guides are as accessible and simple as can be with straight-forward images on how to complete each exercise so not to overwhelm. These images have a detailed 'alt' description for people who use screen readers.<br>
 This exercise image gallery is fully responsive, changing layout at different screen breakpoints to ensure good UX. 
 
 
