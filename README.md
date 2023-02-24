@@ -95,7 +95,8 @@ The Nav bar is present on all pages of the website and is very clear to see allo
 The footer is large, visible and responsive to all devices, heping with simple navigation. I have included a hover toggle to the links to improve UX`. These icons were imported from font awesome using Javascript at the bottom of the page.
 
 ## **Anchor tags**
- I wanted to keep the tages in keeping with the website but visible for users so the default style was removed but the link is highlighed by bold font. The only exeption to this was in the contact response page where the social medial links needed an underline text decoration to help with highlighting the link.
+ I wanted to keep the tags in keeping with the websites minimal style but visible for users so the default style was removed and the link is highlighed by bold font. The only exeption to this was in the contact response page where the social medial links needed an underline text decoration to help with highlighting the link.
+ External links were provided throught the website for every article and workout example. I also included internal links to help with simple navigation through the site.
 
  ## **Home Page**
 
@@ -120,7 +121,7 @@ This page is fully responsive and changes css layout using flex at 768px devices
 ## **Exercise Page**
 
 This exercise example page has an introduction  and images of how to do 18 home exercise.<br>
-In keeping with the website's goals these exercise guides are as accessible and simple as can be with straight-forward images on how to complete each exercise so not to overwhelm. These images have an excellent 'alt' value for exercise description for people that need it.<br>
+In keeping with the websites goal, these exercise guides are as accessible and simple as can be with straight-forward images on how to complete each exercise so not to overwhelm. These images have an excellent 'alt' value for exercise description for people that need it.<br>
 This exercise image gallery is fully responsive, changing layout at different screen breakpoints to ensure good UX. 
 
 
