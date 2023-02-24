@@ -690,8 +690,11 @@ ol {
     border-radius: 10px;
     font-size: 0.75rem;
     padding: 1rem;
-    margin: 0.5rem;
+    margin: 0.5rem 0.75rem;
+    min-width: 95%;
     text-align: justify;
+    
+    
 
 }
 
