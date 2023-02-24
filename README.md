@@ -48,7 +48,7 @@ One of the main messages in this website is that any amount of exercise is bette
 
 ## **Imagery** ##
 
-The images where carefully chosesn to match the breif of the website: simple, not over-whelming yet distinctive. The images in the home page and contact response page are subtle in colour but are in keeping of the culture of the audience. The exercise images are agian simple but easy to digest. 
+The images where carefully chosesn to match the breif of the website, they are not overwhelming yet distinctive. The images in the 'home page' and 'contact response page' are subtle in colour but are in keeping with the culture of the audience. The exercise example images are agian simple but easy to digest. 
 
 ## **Wireframes**
 
@@ -84,7 +84,7 @@ I again wanted to use simple yet exiting typography which is easy to read. I fou
 ![Header](assets/media/mobile-tablet-header.jpg)
 ![Header](assets/media/desktop-header.jpg)<br>
 
-The Logo/title of Bodyweight Home Workouts is clear, simple and stylish and responsive to all devices. It also acts as a link to the home page. It has an added style option of a subtle blinking boarder to gain attention.
+The title of Bodyweight Home Fitness is clear, simple and stylish. It is responsive to all devices and  it acts as a link to the 'home page'. It has a subtle blinking boarder to gain attention.
 
 The Nav bar is present on all pages of the website and is very clear to see allowing for easy navigation, even for the casulal or first time user. The active page is highlighted and a hover effect is also used to enhance ux. 
 
@@ -92,11 +92,11 @@ The Nav bar is present on all pages of the website and is very clear to see allo
 
 ![Footer](assets/media/footer.jpg)<br>
 
-The footer is large, visible and responsive to all devices, heping with simple navigation. I have included a hover toggle to the links to improve UX`. These icons were imported from font awesome using Javascript at the bottom of the page.
+The footer is large, visible and responsive to all devices, heping with simple navigation. I have included a hover toggle to the links to improve UX. These icons were imported from font awesome using Javascript at the bottom of the page.
 
 ## **Anchor tags**
- I wanted to keep the tags in keeping with the websites minimal style but visible for users so the default style was removed and the link is highlighed by bold font. The only exeption to this was in the contact response page where the social medial links needed an underline text decoration to help with highlighting the link.
- External links were provided throught the website for every article and workout example. I also included internal links to help with simple navigation through the site.
+ I wanted to keep the tags in keeping with the websites minimal style but visible for users so the default style was removed and the link is highlighed by bold font. The only exeption to this was in the 'contact response page' where the social medial links needed an underline text decoration to help with highlighting the link.
+ External links are provided throughout the website for every article and workout example. I have also included internal links to help with simple navigation.
 
  ## **Home Page**
 
