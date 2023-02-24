@@ -198,7 +198,7 @@ header {
     .header-list-item {
         height: fit-content;
         margin: 3rem 1rem;
-        padding: 0.5rem 0.4rem;
+        padding: 0.5rem 0.6rem;
     }
 }
 
@@ -212,7 +212,6 @@ header {
     background-color: rgba(152, 211, 223, 0.3);
     font-weight: 900;
     text-transform: uppercase;
-    transform: scale(1.2);
 
 }
 
@@ -809,7 +808,7 @@ button {
 }
 
 button:hover {
-    transform: scale(1.5);
+    text-transform: uppercase;
 }
 
 @media (min-width: 600px) {
