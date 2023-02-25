@@ -588,7 +588,7 @@ footer {
 .flex-photo-grid {
     display: flex;
     flex-wrap: wrap;
-    padding: 0.25rem;
+    padding: 0.5rem;
     width: 100%;
 }
 
@@ -606,7 +606,7 @@ footer {
 @media (min-width: 1024px) {
 
     .flex-photo-grid {
-        padding:1rem;
+        padding:2rem;
     }
 }
 
