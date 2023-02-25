@@ -127,7 +127,9 @@ header {
     padding: 0.25rem 0.5rem;
     border: 0.3rem solid #e9e9e9;
     border-radius: 25px;
-    /* blinking border for logo animation */
+
+    /* blinking border for logo animation - learnt blink effect from stackoverflow.com and modified */
+
     animation: blink 1.75s;
     animation-iteration-count: 10;
     font-style: normal;
@@ -237,7 +239,7 @@ footer {
     }
 }
 
-/* footer toggle shake animation on hover */
+/* footer toggle shake animation on hover - animation learnt and code taken from w3school.com */
 
 .footer-link:hover {
     color: rgba(0, 0, 0, 0.8);
