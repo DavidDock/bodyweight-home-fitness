@@ -365,20 +365,26 @@ footer {
     border-radius: 10px;
 }
 
-/* motivation page */
+/* Container gradient shared styles */
+/* Background color added for browsers that cant see gradients */
 
-/*about-container styles*/
-
-.about-container {
+.about-container,
+.about-exercise-container,
+.about-workouts,
+.link-container,
+.about-form-container {
+    background-color: #cdcdcd;
     background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
 }
 
-
-/* article container styling */
-
-.article-container {
+.article-container,
+.workouts-container {
+    background-color: #88bbd6;
     background-image: linear-gradient(to right, #88bbd6, #cdcdcd);
 }
+
+
+/* motivation page */
 
 @media (min-width: 600px) {
 
@@ -548,12 +554,6 @@ footer {
 
 }
 
-/* about exercise and additional information container */
-
-.about-exercise-container {
-    background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
-}
-
 /* media query for 600px and above */
 
 @media (min-width: 600px) {
@@ -571,9 +571,6 @@ footer {
         text-align: center;
     }
 }
-
-
-
 
 /* exercise flex photo grid */
 
@@ -687,12 +684,6 @@ footer {
     }
 }
 
-.workouts-container {
-    background-image: linear-gradient(to right, #88bbd6, #cdcdcd);
-
-
-}
-
 @media (min-width: 768px) {
 
     .workouts-container {
@@ -707,12 +698,9 @@ ol {
 /* links in workouts container */
 
 .link-container {
-    background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
     margin: auto;
     max-width: 90%;
     text-align: justify;
-
-
 
 }
 
@@ -752,7 +740,6 @@ ol {
 /* about form container */
 
 .about-form-container {
-    background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
     margin: 2rem auto 3rem auto;
     width: fit-content;
     text-align: center;
@@ -846,6 +833,9 @@ button:hover {
 }
 
 .thank-you-container {
+
+    /* Background color for browers that dont support gradient */
+    background-color: #99d3df;
     background-image: radial-gradient(#99d3df, #e9e9e9);
     margin: 3rem auto 3rem auto;
     width: fit-content;
