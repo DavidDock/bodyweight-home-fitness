@@ -32,19 +32,16 @@ h3 {
 
     font-family: Teko, sans-serif, Helvetica, arial;
     letter-spacing: 1px;
+    text-align: center;
 }
-/* h1 style rules */
 
 h1 {
     font-size: 1.5rem;
 }
 
-/* h2 and h3 style rules */
-
 h2,
 h3 {
     font-size: 1.25rem;
-    text-align: center;
     padding: 0.5rem;
 }
 
@@ -52,7 +49,7 @@ h3 {
     font-size: 1rem;
 }
 
-/* media query for 600px and above */
+/* media query for 600px and above on headings */
 
 @media (min-width: 600px) {
     h1 {
