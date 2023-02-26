@@ -45,7 +45,7 @@ a {
 }
 
 .link-to-footer:hover {
-    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 ul {
