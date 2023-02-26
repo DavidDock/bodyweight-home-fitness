@@ -633,16 +633,9 @@ footer {
     transform: scale(1.25);
 }
 
+/* workout page */
+
 /* workouts page container */
-
-.workouts-page-container {
-    margin-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    min-width: 100%;
-
-}
 
 @media (min-width: 768px) {
 
@@ -650,6 +643,16 @@ footer {
         font-size: 1rem;
         padding-top: 2rem;
     }
+}
+
+
+.workouts-page-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    justify-content: center;
+
 }
 
 .workout-flex-basis {
@@ -662,9 +665,17 @@ footer {
 @media (min-width: 768px) {
 
     .workout-flex-basis {
-        flex-basis: 45%;
+        flex-basis: 40%; 
+        margin: 2rem;     
     }
 
+}
+
+@media (min-width: 768px) {
+
+    .about-workouts {
+        font-size: 1rem;
+    }
 }
 
 .workouts-container {
@@ -673,6 +684,7 @@ footer {
     font-size: 0.75rem;
     padding: 1rem;
     border-radius: 10px;
+
 
 }
 
