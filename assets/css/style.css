@@ -18,7 +18,7 @@ body {
     font-family: 'Ubuntu', sans-serif, Helvetica, arial;
     font-weight: 400;
     text-align: center;
-    /* F or browsers who dont support gradients add background colr */
+    /* For browsers who dont support gradients add background colr */
     background-color: #e9e9e9;
     background-image: radial-gradient(#cdcdcd, #e9e9e9);
 
@@ -99,6 +99,10 @@ ul {
 /* header and nav */
 
 header {
+
+    /* for browsers that dont support gradient */
+
+    background-color: #88bbd6;
     background-image: linear-gradient(to bottom, #88bbd6, #e9e9e9);
 }
 
@@ -123,11 +127,6 @@ header {
 
 }
 
-@media (min-width: 1024px) {
-    .logo {
-        margin-left: 2rem;
-    }
-}
 
 /* flex nav-container contining logo and naigation list */
 
@@ -136,24 +135,11 @@ header {
     flex-flow: column;
 }
 
-@media (min-width: 1024px) {
-    .nav-container {
-        flex-flow: row;
-        padding: 3rem 1rem 2rem 1rem;
-    }
-}
-
 /* flex list for navigation */
 
 .header-ul {
     display: flex;
     justify-content: space-evenly;
-}
-
-@media (min-width: 1024px) {
-    .header-ul {
-        margin-left: auto;
-    }
 }
 
 .header-list-item {
@@ -169,6 +155,8 @@ header {
 
 }
 
+/* media quieries for header and nav min 600px and 1024px */
+
 @media (min-width: 600px) {
 
     .header-list-item {
@@ -178,6 +166,16 @@ header {
 }
 
 @media (min-width: 1024px) {
+    .logo {
+        margin-left: 2rem;
+    }
+    .nav-container {
+        flex-flow: row;
+        padding: 3rem 1rem 2rem 1rem;
+    }
+    .header-ul {
+        margin-left: auto;
+    }
     .header-list-item {
         height: fit-content;
         margin: 3rem 1.25rem;
@@ -665,8 +663,8 @@ footer {
 @media (min-width: 768px) {
 
     .workout-flex-basis {
-        flex-basis: 40%; 
-        margin: 2rem;     
+        flex-basis: 42%; 
+        margin: 1.75rem;     
     }
 
 }
