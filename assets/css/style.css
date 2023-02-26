@@ -67,6 +67,23 @@ h3 {
     }
 }
 
+/* media query for 1024px and above on headings */
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2,
+    h3 {
+        font-size: 2.25rem;
+        padding: 1rem;
+    }
+
+    .sub-heading {
+        font-size: 2rem;
+    }
+}
 /* remove default <a> and <ul> styles */
 a {
     text-decoration: none;
@@ -815,6 +832,28 @@ button:hover {
 /* media query for 1024px and above */
 
 @media (min-width: 1024px) {
+
+    .article-container,
+    .about-container,
+    .about-exercise-container,
+    .about-form-container,
+    input {
+        font-size: 1.25rem;
+    }
+
+    .hero-quote-container,
+    .person-hero,
+    .person,
+    .quote-text-container {
+        font-size: 1.75rem;
+    }
+
+    .about-workouts,
+    .workouts-container,
+    .about-workouts,
+    .link-container {
+        font-size: 1.25rem;
+    }
 
     .thank-you-text {
         font-size: 3rem;
