@@ -353,10 +353,16 @@ footer {
 .article-container,
 .about-container,
 .about-exercise-container,
-.link-container {
+.about-workouts,
+.workouts-container,
+.link-container,
+.about-form-container,
+.thank-you-container {
     font-size: 0.75rem;
     padding: 1rem;
     text-align: left;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 10px;
 }
 
 /* motivation page */
@@ -365,8 +371,6 @@ footer {
 
 .about-container {
     background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
-    box-shadow: 5px 10px 8px #888888;
-    border-radius: 10px;
 }
 
 
@@ -374,13 +378,12 @@ footer {
 
 .article-container {
     background-image: linear-gradient(to right, #88bbd6, #cdcdcd);
-    box-shadow: 5px 10px 8px #888888;
-    border-radius: 10px;
 }
 
 @media (min-width: 600px) {
 
-    .article-container {
+    .article-container,
+    .about-container {
         font-size: 1rem;
     }
 }
@@ -393,8 +396,6 @@ footer {
 
     background-color: #99d3df;
     background-image: radial-gradient(#ffffff, #99d3df);
-    box-shadow: 5px 10px 8px #888888;
-    border-radius: 10px;
     font-family: teko;
 
 
@@ -551,8 +552,6 @@ footer {
 
 .about-exercise-container {
     background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
-    box-shadow: 5px 10px 8px #888888;
-    border-radius: 10px;
 }
 
 /* media query for 600px and above */
@@ -569,7 +568,6 @@ footer {
 @media (min-width: 1024px) {
 
     .about-exercise-container {
-        font-size: 1.25rem;
         text-align: center;
     }
 }
@@ -622,7 +620,7 @@ footer {
     }
 }
 
-/* media query for laptops */
+/* media query for 1024px and above */
 
 @media (min-width: 1024px) {
 
@@ -691,10 +689,6 @@ footer {
 
 .workouts-container {
     background-image: linear-gradient(to right, #88bbd6, #cdcdcd);
-    box-shadow: 5px 10px 8px #888888;
-    font-size: 0.75rem;
-    padding: 1rem;
-    border-radius: 10px;
 
 
 }
@@ -714,8 +708,6 @@ ol {
 
 .link-container {
     background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
-    box-shadow: 5px 10px 8px #888888;
-    border-radius: 10px;
     margin: auto;
     max-width: 90%;
     text-align: justify;
@@ -761,11 +753,7 @@ ol {
 
 .about-form-container {
     background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
-    box-shadow: 5px 10px 8px #888888;
-    border-radius: 10px;
     margin: 2rem auto 3rem auto;
-    padding: 1rem;
-    font-size: 0.75rem;
     width: fit-content;
     text-align: center;
 }
@@ -859,10 +847,7 @@ button:hover {
 
 .thank-you-container {
     background-image: radial-gradient(#99d3df, #e9e9e9);
-    box-shadow: 5px 10px 8px #888888;
-    border-radius: 10px;
     margin: 3rem auto 3rem auto;
-    padding: 1rem;
     width: fit-content;
     text-align: center;
 }
