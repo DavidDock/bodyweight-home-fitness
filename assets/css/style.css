@@ -347,19 +347,21 @@ footer {
     }
 }
 
-/* motivation page general style to containers and font */
+/* General style rules to containers */
 
 .quote-container,
 .article-container,
 .about-container,
+.about-exercise-container,
 .link-container {
     font-size: 0.75rem;
     padding: 1rem;
     text-align: left;
 }
 
+/* motivation page */
 
-/* about container styling */
+/*about-container styles*/
 
 .about-container {
     background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
@@ -386,7 +388,9 @@ footer {
 /* quote container styling */
 
 .quote-container {
+
 /* Background color for browsers who dont support gradient */
+
     background-color: #99d3df;
     background-image: radial-gradient(#ffffff, #99d3df);
     box-shadow: 5px 10px 8px #888888;
@@ -546,14 +550,9 @@ footer {
 /* about exercise and additional information container */
 
 .about-exercise-container {
-    font-size: 0.75rem;
-    padding: 1rem;
-    text-align: left;
     background-image: linear-gradient(to right, #cdcdcd, #e9e9e9);
     box-shadow: 5px 10px 8px #888888;
     border-radius: 10px;
-    font-size: 1rem;
-    padding: 1rem;
 }
 
 /* media query for 600px and above */
