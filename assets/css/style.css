@@ -308,14 +308,6 @@ footer {
     border-radius: 25px;
 }
 
-@media (min-width: 600px) {
-
-    .hero-quote-container {
-        font-size: 1.5rem;
-
-    }
-}
-
 /* style rules for the person who provides quote */
 
 .person-hero {
@@ -324,25 +316,11 @@ footer {
 
 }
 
-@media (min-width: 600px) {
-
-    .person-hero {
-        font-size: 1.5rem;
-    }
-}
 
 .person {
     font-family: teko;
     font-size: 0.75rem;
 
-}
-
-@media (min-width: 600px) {
-
-    .person {
-        font-size: 1.5rem;
-        margin-top: 2rem;
-    }
 }
 
 /* General style rules to containers */
@@ -381,16 +359,7 @@ footer {
     background-image: linear-gradient(to right, #88bbd6, #cdcdcd);
 }
 
-
 /* motivation page */
-
-@media (min-width: 600px) {
-
-    .article-container,
-    .about-container {
-        font-size: 1rem;
-    }
-}
 
 /* quote container styling */
 
@@ -401,8 +370,6 @@ footer {
     background-color: #99d3df;
     background-image: radial-gradient(#ffffff, #99d3df);
     font-family: teko;
-
-
 }
 
 /*quote text styling */
@@ -412,14 +379,6 @@ footer {
     font-size: 1rem;
     text-align: center;
     margin: auto 0;
-}
-
-@media (min-width: 600px) {
-
-    .quote-text-container {
-        font-size: 1.5rem;
-        margin-top: 0.5rem;
-    }
 }
 
 /* motivation grid container for whole motivation page */
@@ -440,7 +399,7 @@ footer {
     grid-auto-columns: 1fr;
 }
 
-/* media query for above 600px */
+/* media query for above 768px */
 
 @media (min-width: 768px) {
 
@@ -461,15 +420,6 @@ footer {
 #about-motivation {
     grid-area: one;
 }
-
-@media (min-width: 600px) {
-
-    #about-motivation {
-        font-size: 1rem;
-        padding-top: 3rem;
-    }
-}
-
 
 /* background image on quote 1 */
 
@@ -534,6 +484,8 @@ footer {
     grid-area: twelve;
 }
 
+/* media query for devices larger than 600px */
+
 @media (min-width: 600px) {
 
     #quote5,
@@ -550,15 +502,6 @@ footer {
 .exercise-page-container {
     margin: 1rem;
 
-}
-
-/* media query for 600px and above */
-
-@media (min-width: 600px) {
-
-    .about-exercise-container {
-        font-size: 1.25rem;
-    }
 }
 
 /* media query for 1024px and above */
@@ -598,8 +541,6 @@ footer {
     }
 }
 
-
-
 .figure-exercise {
     padding: 1rem;
     flex-basis: 50%;
@@ -624,6 +565,7 @@ footer {
     }
 }
 
+/* image size and style */
 
 .img-exercise {
     width: 100%;
@@ -640,15 +582,6 @@ footer {
 /* workout page */
 
 /* workouts page container */
-
-@media (min-width: 768px) {
-
-    .about-workouts {
-        font-size: 1rem;
-        padding-top: 2rem;
-    }
-}
-
 
 .workouts-page-container {
     margin-top: 1rem;
@@ -675,19 +608,7 @@ footer {
 
 }
 
-@media (min-width: 768px) {
-
-    .about-workouts {
-        font-size: 1rem;
-    }
-}
-
-@media (min-width: 768px) {
-
-    .workouts-container {
-        font-size: 1rem;
-    }
-}
+/* ordered list for workouts */
 
 ol {
     padding-left: 1rem;
@@ -701,17 +622,6 @@ ol {
     text-align: justify;
 
 }
-
-@media (min-width: 768px) {
-
-    .link-container {
-        font-size: 1rem;
-        max-width: 75%;
-    }
-}
-
-
-
 
 /* workout link list */
 
@@ -743,15 +653,6 @@ ol {
     text-align: center;
 }
 
-@media (min-width: 600px) {
-
-    .about-form-container {
-        font-size: 1rem;
-        padding: 2rem;
-    }
-}
-
-
 /* contact form */
 
 form {
@@ -770,14 +671,6 @@ input {
     border: none;
     color: black;
     font-size: 0.5rem;
-}
-
-@media (min-width: 600px) {
-
-    input {
-        font-size: 1rem;
-
-    }
 }
 
 textarea {
@@ -854,15 +747,6 @@ button:hover {
     font-size: 1.5rem;
 }
 
-/* media query for 600px and above */
-
-@media (min-width: 600px) {
-
-    .thank-you-text {
-        font-size: 2rem;
-    }
-}
-
 /* media query for 1024px and above */
 
 @media (min-width: 1024px) {
@@ -891,11 +775,9 @@ button:hover {
     }
 }
 
-
 .figure-thank-you {
     padding: 0.25rem;
     flex-basis: 100%;
-
 
 }
 
@@ -913,4 +795,62 @@ button:hover {
 .image-thank-you {
     width: 100%;
     border-radius: 10px;
+}
+
+/*media queries for container 600px and above */
+
+@media (min-width: 600px) {
+
+    .hero-quote-container,
+    .person-hero,
+    .person,
+    .quote-text-container {
+        font-size: 1.5rem;
+
+    }
+
+    .person {
+        margin-top: 2rem;
+    }
+
+    .article-container,
+    .about-container,
+    .about-exercise-container,
+    .about-form-container,
+    input {
+        font-size: 1rem;
+    }
+
+    .quote-text-container {
+        margin-top: 0.5rem;
+    }
+
+    #about-motivation {
+        padding-top: 3rem;
+    }
+
+    .about-form-container {
+        padding: 2rem;
+    }
+    
+    .thank-you-text {
+        font-size: 2rem;
+    }
+}
+
+/* media  query for screens bigger than 768px */
+
+@media (min-width: 768px) {
+
+    .about-workouts,
+    .workouts-container,
+    .about-workouts,
+    .link-container {
+        font-size: 1rem;
+        padding-top: 2rem;
+    }
+
+    .link-container {
+        max-width: 75%;
+    }
 }
