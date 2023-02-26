@@ -504,15 +504,6 @@ footer {
 
 }
 
-/* media query for 1024px and above */
-
-@media (min-width: 1024px) {
-
-    .about-exercise-container {
-        text-align: center;
-    }
-}
-
 /* exercise flex photo grid */
 
 .flex-photo-grid {
@@ -521,24 +512,6 @@ footer {
     justify-content: center;
     padding: 0.5rem;
     width: 100%;
-}
-
-/* media query for 600px and above */
-
-@media (min-width: 600px) {
-
-    .flex-photo-grid {
-        padding: 0.75rem;
-    }
-}
-
-/* media query for 1024px and above */
-
-@media (min-width: 1024px) {
-
-    .flex-photo-grid {
-        padding: 2rem;
-    }
 }
 
 .figure-exercise {
@@ -733,29 +706,10 @@ button:hover {
     text-align: center;
 }
 
-/* media query for 600px and above */
-
-@media (min-width: 600px) {
-
-    .thank-you-container {
-        margin-top: 4rem;
-    }
-}
-
 .thank-you-text {
 
     font-size: 1.5rem;
 }
-
-/* media query for 1024px and above */
-
-@media (min-width: 1024px) {
-
-    .thank-you-text {
-        font-size: 3rem;
-    }
-}
-
 
 /* thank-you images */
 
@@ -764,15 +718,6 @@ button:hover {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 100%;
-}
-
-/* media query for 600px and above */
-
-@media (min-width: 600px) {
-
-    .thank-you-image-container {
-        margin: 3rem 0;
-    }
 }
 
 .figure-thank-you {
@@ -832,9 +777,21 @@ button:hover {
     .about-form-container {
         padding: 2rem;
     }
-    
+
     .thank-you-text {
         font-size: 2rem;
+    }
+
+    .thank-you-image-container {
+        margin: 3rem 0;
+    }
+
+    .thank-you-container {
+        margin-top: 4rem;
+    }
+
+    .flex-photo-grid {
+        padding: 0.75rem;
     }
 }
 
@@ -854,3 +811,21 @@ button:hover {
         max-width: 75%;
     }
 }
+
+/* media query for 1024px and above */
+
+@media (min-width: 1024px) {
+
+    .thank-you-text {
+        font-size: 3rem;
+    }
+
+    .about-exercise-container {
+        text-align: center;
+    }
+
+    .flex-photo-grid {
+        padding: 2rem;
+    }
+}
+
