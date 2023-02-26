@@ -31,22 +31,12 @@ h2,
 h3 {
 
     font-family: Teko, sans-serif, Helvetica, arial;
+    letter-spacing: 1px;
 }
 /* h1 style rules */
 
 h1 {
     font-size: 1.5rem;
-    letter-spacing: 1px;
-}
-
-/* media query for 600px and above */
-
-@media (min-width: 600px) {
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
 }
 
 /* h2 and h3 style rules */
@@ -54,38 +44,29 @@ h1 {
 h2,
 h3 {
     font-size: 1.25rem;
-    letter-spacing: 1px;
     text-align: center;
     padding: 0.5rem;
-}
-
-@media (min-width: 600px) {
-
-    .h2 {
-        font-size: 1.75rem;
-        padding: 1rem;
-    }
-}
-
-@media (min-width: 600px) {
-
-    .h3 {
-        font-size: 1.75rem;
-        padding: 1rem;
-    }
 }
 
 .sub-heading {
     font-size: 1rem;
 }
 
+/* media query for 600px and above */
+
 @media (min-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2,
+    h3 {
+        font-size: 1.75rem;
+        padding: 1rem;
+    }
     .sub-heading {
         font-size: 1.5rem;
     }
 }
-
-
 
 /* remove default <a> and <ul> styles */
 a {
