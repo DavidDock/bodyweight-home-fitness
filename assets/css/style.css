@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&family=Ubuntu&display=block');
 
-/* Border shadow and background gradients were used throughout, earnt from w3schools.com */ 
+/* Border shadow and background gradients were used throughout, earnt from w3schools.com */
 
 /* All elements */
 
@@ -55,11 +55,13 @@ h3 {
     h1 {
         font-size: 2.5rem;
     }
+
     h2,
     h3 {
         font-size: 1.75rem;
         padding: 1rem;
     }
+
     .sub-heading {
         font-size: 1.5rem;
     }
@@ -169,13 +171,16 @@ header {
     .logo {
         margin-left: 2rem;
     }
+
     .nav-container {
         flex-flow: row;
         padding: 3rem 1rem 2rem 1rem;
     }
+
     .header-ul {
         margin-left: auto;
     }
+
     .header-list-item {
         height: fit-content;
         margin: 3rem 1.25rem;
@@ -208,14 +213,6 @@ footer {
     font-size: 1.5rem;
     margin: 1.25rem 0 1rem 0;
 
-}
-
-@media (min-width: 600px) {
-
-    .footer-link {
-        font-size: 2rem;
-        margin: 1.5rem 0 1rem 0;
-    }
 }
 
 /* footer toggle shake animation on hover - animation learnt and code taken from w3school.com */
@@ -274,6 +271,16 @@ footer {
     }
 }
 
+/* footer media queries for 600px and above devices */
+
+@media (min-width: 600px) {
+
+    .footer-link {
+        font-size: 2rem;
+        margin: 1.5rem 0 1rem 0;
+    }
+}
+
 /* Hero container */
 
 .hero-container {
@@ -303,7 +310,7 @@ footer {
 
     .hero-quote-container {
         font-size: 1.5rem;
-        
+
     }
 }
 
@@ -400,6 +407,7 @@ footer {
         margin-top: 0.5rem;
     }
 }
+
 /* motivation grid container for whole motivation page */
 
 .motivation-container {
@@ -473,6 +481,7 @@ footer {
         padding-top: 4rem;
     }
 }
+
 /* background image on quote 3 */
 
 #quote3 {
@@ -579,7 +588,7 @@ footer {
 @media (min-width: 600px) {
 
     .flex-photo-grid {
-        padding:0.75rem;
+        padding: 0.75rem;
     }
 }
 
@@ -588,7 +597,7 @@ footer {
 @media (min-width: 1024px) {
 
     .flex-photo-grid {
-        padding:2rem;
+        padding: 2rem;
     }
 }
 
@@ -663,8 +672,8 @@ footer {
 @media (min-width: 768px) {
 
     .workout-flex-basis {
-        flex-basis: 42%; 
-        margin: 1.75rem;     
+        flex-basis: 42%;
+        margin: 1.75rem;
     }
 
 }
@@ -708,8 +717,8 @@ ol {
     margin: auto;
     max-width: 90%;
     text-align: justify;
-    
-    
+
+
 
 }
 
@@ -731,7 +740,7 @@ ol {
     padding: 1rem;
 }
 
-.workout-link-list > li {
+.workout-link-list>li {
     margin: 1rem;
 }
 
@@ -792,7 +801,7 @@ input {
 
     input {
         font-size: 1rem;
-        
+
     }
 }
 
@@ -810,7 +819,7 @@ textarea {
 
     textarea {
         font-size: 1.25rem;
-        
+
     }
 }
 
@@ -835,13 +844,13 @@ button:hover {
     button {
         font-size: 1.5rem;
         border: solid 1.5px #000000;
-        
+
     }
 }
 
 /* thank-you for contacting */
 
-.thank-you-page{
+.thank-you-page {
 
     margin: 1rem;
 }
@@ -861,9 +870,9 @@ button:hover {
 @media (min-width: 600px) {
 
     .thank-you-container {
-          margin-top: 4rem;  
-        }
+        margin-top: 4rem;
     }
+}
 
 .thank-you-text {
 
@@ -875,18 +884,18 @@ button:hover {
 @media (min-width: 600px) {
 
     .thank-you-text {
-          font-size: 2rem;  
-        }
+        font-size: 2rem;
     }
+}
 
-    /* media query for 1024px and above */
+/* media query for 1024px and above */
 
 @media (min-width: 1024px) {
 
     .thank-you-text {
-          font-size: 3rem;  
-        }
+        font-size: 3rem;
     }
+}
 
 
 /* thank-you images */
@@ -898,14 +907,14 @@ button:hover {
     width: 100%;
 }
 
-    /* media query for 600px and above */
+/* media query for 600px and above */
 
-    @media (min-width: 600px) {
+@media (min-width: 600px) {
 
-        .thank-you-image-container {
-              margin: 3rem 0;
-            }
-        }
+    .thank-you-image-container {
+        margin: 3rem 0;
+    }
+}
 
 
 .figure-thank-you {
@@ -915,16 +924,16 @@ button:hover {
 
 }
 
-    /* media query for 600px and above */
+/* media query for 600px and above */
 
-    @media (min-width: 600px) {
+@media (min-width: 600px) {
 
-        .figure-thank-you {
-              flex-basis: 50%;  
-              margin: 4rem 0;
-            }
-        }
-    
+    .figure-thank-you {
+        flex-basis: 50%;
+        margin: 4rem 0;
+    }
+}
+
 
 .image-thank-you {
     width: 100%;
