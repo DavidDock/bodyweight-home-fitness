@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&family=Ubuntu&display=block');
 
-/* Border shadow and background gradients were used throughout, earnt from w3schools.com */
+/* Border shadow and background gradients were used throughout, taught by w3schools.com */
 
 /* All elements */
 
@@ -14,14 +14,12 @@
 /* Body style rules */
 
 body {
-
     font-family: 'Ubuntu', sans-serif, Helvetica, arial;
     font-weight: 400;
     text-align: center;
-    /* For browsers who dont support gradients add background colr */
+    /* For browsers who do not support gradients add background col0r */
     background-color: #e9e9e9;
     background-image: radial-gradient(#cdcdcd, #e9e9e9);
-
 }
 
 /* H1, H2, H3 general rules */
@@ -29,7 +27,6 @@ body {
 h1,
 h2,
 h3 {
-
     font-family: Teko, sans-serif, Helvetica, arial;
     letter-spacing: 1px;
     text-align: center;
@@ -84,14 +81,15 @@ h3 {
         font-size: 2rem;
     }
 }
-/* remove default <a> and <ul> styles */
+
+/* remove default styles and add new to <a> and <ul> elements */
 a {
     text-decoration: none;
     color: #000000;
     font-weight: 800;
 }
 
-/* link to footer */
+/* <a> to footer */
 
 .link-to-footer {
     text-decoration: underline;
@@ -99,6 +97,18 @@ a {
 
 .link-to-footer:hover {
     font-weight: 400;
+}
+
+/* active nav-links and hover nav-links style  */
+
+.active-nav-link {
+    background-color: rgba(152, 211, 223, 0.2);
+}
+
+.header-list-item:hover {
+    background-color: rgba(152, 211, 223, 0.3);
+    font-weight: 900;
+    text-decoration: underline;
 }
 
 ul {
@@ -118,9 +128,7 @@ ul {
 /* header and nav */
 
 header {
-
-    /* for browsers that dont support gradient */
-
+    /* background color for browsers that do not support gradient */
     background-color: #88bbd6;
     background-image: linear-gradient(to bottom, #88bbd6, #e9e9e9);
 }
@@ -132,7 +140,7 @@ header {
     border: 0.3rem solid #e9e9e9;
     border-radius: 25px;
 
-    /* blinking border for logo animation - learnt blink effect from stackoverflow.com and modified */
+    /* blinking border for logo animation - blink effect from stackoverflow.com and modified */
 
     animation: blink 1.75s;
     animation-iteration-count: 10;
@@ -143,11 +151,9 @@ header {
     50% {
         border-color: #cdcdcd;
     }
-
 }
 
-
-/* flex nav-container contining logo and naigation list */
+/* flex nav-container containing logo and naigation list */
 
 .nav-container {
     display: flex;
@@ -171,13 +177,11 @@ header {
     border-radius: 10px;
     font-family: teko;
     font-weight: 400;
-
 }
 
 /* media quieries for header and nav min 600px and 1024px */
 
 @media (min-width: 600px) {
-
     .header-list-item {
         font-size: 1.25rem;
         padding: 0.8rem 0.7rem;
@@ -205,24 +209,10 @@ header {
     }
 }
 
-/* active nav-links and hover nav-links style  */
-
-.active-nav-link {
-    background-color: rgba(152, 211, 223, 0.2);
-}
-
-.header-list-item:hover {
-    background-color: rgba(152, 211, 223, 0.3);
-    font-weight: 900;
-    text-decoration: underline;
-
-}
-
 /* flex footer with social media links */
 
 footer {
-
-    /* Background color or browsers that dont support gradient */
+    /* Background color or browsers that do not support gradient */
     background-color: #88bbd6;
     background-image: linear-gradient(to top, #88bbd6, #e9e9e9);
     display: flex;
@@ -232,10 +222,9 @@ footer {
 .footer-link {
     font-size: 1.5rem;
     margin: 1.25rem 0 1rem 0;
-
 }
 
-/* footer toggle shake animation on hover - animation learnt and code taken from w3school.com */
+/* footer toggle shake animation on hover - animation code from from w3school.com */
 
 .footer-link:hover {
     color: rgba(0, 0, 0, 0.8);
@@ -294,7 +283,6 @@ footer {
 /* footer media queries for 600px and above devices */
 
 @media (min-width: 600px) {
-
     .footer-link {
         font-size: 2rem;
         margin: 1.5rem 0 1rem 0;
@@ -330,14 +318,11 @@ footer {
 .person-hero {
     font-family: teko;
     font-size: 1.25rem;
-
 }
-
 
 .person {
     font-family: teko;
     font-size: 0.75rem;
-
 }
 
 /* General style rules to containers */
@@ -381,15 +366,11 @@ footer {
 /* quote container styling */
 
 .quote-container {
-
-/* Background color for browsers who dont support gradient */
-
+    /* Background color for browsers who dont support gradient */
     background-color: #99d3df;
     background-image: radial-gradient(#ffffff, #99d3df);
     font-family: teko;
 }
-
-/*quote text styling */
 
 .quote-text-container {
     font-weight: 700;
@@ -419,7 +400,6 @@ footer {
 /* media query for above 768px */
 
 @media (min-width: 768px) {
-
     .motivation-container {
         gap: 3rem;
         grid-template-areas:
@@ -438,18 +418,12 @@ footer {
     grid-area: one;
 }
 
-/* background image on quote 1 */
-
 #quote1 {
     grid-area: two;
-
 }
-
-/* background image on quote 2 */
 
 #quote2 {
     grid-area: three;
-
 }
 
 #article1 {
@@ -457,20 +431,14 @@ footer {
 }
 
 @media (min-width: 600px) {
-
     #article1 {
         padding-top: 4rem;
     }
 }
 
-/* background image on quote 3 */
-
 #quote3 {
     grid-area: five;
 }
-
-
-/* background image on quote 4 */
 
 #quote4 {
     grid-area: six;
@@ -504,21 +472,18 @@ footer {
 /* media query for devices larger than 600px */
 
 @media (min-width: 600px) {
-
     #quote5,
     #quote6,
     #quote7,
     #quote8 {
-        padding-top: 1.5rem;
+    padding-top: 1.5rem;
     }
 }
-
 
 /* excercise page container */
 
 .exercise-page-container {
     margin: 1rem;
-
 }
 
 /* exercise flex photo grid */
@@ -534,7 +499,6 @@ footer {
 .figure-exercise {
     padding: 1rem;
     flex-basis: 50%;
-
 }
 
 /* media query for 600px and above */
@@ -565,8 +529,7 @@ footer {
 /* zoom effect on hover of image */
 
 .img-exercise:hover {
-
-    transform: scale(1.25);
+     transform: scale(1.25);
 }
 
 /* workout page */
@@ -579,7 +542,6 @@ footer {
     flex-wrap: wrap;
     min-width: 100%;
     justify-content: center;
-
 }
 
 .workout-flex-basis {
@@ -595,7 +557,6 @@ footer {
         flex-basis: 42%;
         margin: 1.75rem;
     }
-
 }
 
 /* ordered list for workouts */
@@ -610,7 +571,6 @@ ol {
     margin: auto;
     max-width: 90%;
     text-align: justify;
-
 }
 
 /* workout link list */
@@ -673,14 +633,6 @@ textarea {
 
 }
 
-@media (min-width: 600px) {
-
-    textarea {
-        font-size: 1.25rem;
-
-    }
-}
-
 button {
     width: 20%;
     height: 2rem;
@@ -697,24 +649,13 @@ button:hover {
     text-transform: uppercase;
 }
 
-@media (min-width: 600px) {
-
-    button {
-        font-size: 1.5rem;
-        border: solid 1.5px #000000;
-
-    }
-}
-
 /* thank-you for contacting */
 
 .thank-you-page {
-
     margin: 1rem;
 }
 
 .thank-you-container {
-
     /* Background color for browers that dont support gradient */
     background-color: #99d3df;
     background-image: radial-gradient(#99d3df, #e9e9e9);
@@ -724,7 +665,6 @@ button:hover {
 }
 
 .thank-you-text {
-
     font-size: 1.5rem;
 }
 
@@ -746,13 +686,11 @@ button:hover {
 /* media query for 600px and above */
 
 @media (min-width: 600px) {
-
     .figure-thank-you {
         flex-basis: 50%;
         margin: 4rem 0;
     }
 }
-
 
 .image-thank-you {
     width: 100%;
@@ -762,13 +700,11 @@ button:hover {
 /*media queries for container 600px and above */
 
 @media (min-width: 600px) {
-
     .hero-quote-container,
     .person-hero,
     .person,
     .quote-text-container {
         font-size: 1.5rem;
-
     }
 
     .person {
@@ -810,12 +746,20 @@ button:hover {
     .flex-photo-grid {
         padding: 0.75rem;
     }
+
+    textarea {
+        font-size: 1.25rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+        border: solid 1.5px #000000;
+    }
 }
 
 /* media  query for screens bigger than 768px */
 
 @media (min-width: 768px) {
-
     .about-workouts,
     .workouts-container,
     .about-workouts,
@@ -832,7 +776,6 @@ button:hover {
 /* media query for 1024px and above */
 
 @media (min-width: 1024px) {
-
     .article-container,
     .about-container,
     .about-exercise-container,
@@ -867,4 +810,3 @@ button:hover {
         padding: 2rem;
     }
 }
-
