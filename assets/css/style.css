@@ -292,7 +292,7 @@ footer {
 /* Hero container */
 
 .hero-container {
-    background: url('../images/hero.jpg');
+    background: url('../images/hero.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -694,6 +694,7 @@ button:hover {
 
 .image-thank-you {
     width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
