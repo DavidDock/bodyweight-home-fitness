@@ -506,6 +506,7 @@ footer {
 @media (min-width: 600px) {
 
     .figure-exercise {
+        padding: 1.25rem;
         flex-basis: 33%;
     }
 }
@@ -515,6 +516,7 @@ footer {
 @media (min-width: 1024px) {
 
     .figure-exercise {
+        padding: 1.75rem;
         flex-basis: 25%;
     }
 }
@@ -799,7 +801,6 @@ button:hover {
     .link-container {
         font-size: 1.25rem;
     }
-
     .thank-you-text {
         font-size: 3rem;
     }
