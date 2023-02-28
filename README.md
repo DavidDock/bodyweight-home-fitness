@@ -84,29 +84,31 @@ I again wanted to use simple yet exiting typography which is easy to read. I fou
 ![Header](assets/media/mobile-tablet-header.jpg)
 ![Header](assets/media/desktop-header.jpg)<br>
 
-The title of Bodyweight Home Fitness is clear, simple and stylish. It is responsive to all devices and  it acts as a link to the 'home page'. It has a subtle blinking boarder to gain attention.
+* The title of Bodyweight Home Fitness is clear, simple and stylish. It is responsive to all devices and  it acts as a link to the 'home page'. It has a subtle blinking boarder to gain attention.
 
-The Nav bar is present on all pages of the website and is very clear to see allowing for easy navigation, even for the casulal or first time user. The active page is highlighted and a hover effect is also used to enhance ux. 
+* The Nav bar is present on all pages of the website and is very clear to see allowing for easy navigation. The active page is highlighted and a hover effect is also used to enhance ux. 
 
 ## **Footer**
 
 ![Footer](assets/media/footer.jpg)<br>
 
-The footer is large, visible and responsive to all devices, heping with simple navigation. I have included a hover toggle to the links to improve UX. These icons were imported from font awesome using Javascript at the bottom of the page.
+* The footer is large, visible and responsive to all devices. I have included a hover toggle to the links to improve UX. These icons were imported from font awesome using Javascript at the bottom of the page.
 
 ## **Anchor tags**
- I wanted to keep the tags in keeping with the websites minimal style but visible for users so the default style was removed and the link is highlighed by bold font. The only exeption to this was in the 'contact response page' where the social medial links needed an underline text decoration to help with highlighting the link.
- External links are provided throughout the website for every article and workout example. I have also included internal links to help with simple navigation.
+
+ * I wanted to keep the tags in keeping with the websites minimal style but visible for users so the default style was removed and the link is highlighed by bold font. The only exeption to this was in the 'contact response page' where the social medial links needed an underline text decoration to help with highlighting the link.
+ * External links are provided throughout the website for every article and workout example, opening in new tabs and with aria-lables. I have also included internal links to help with simple navigation.
 
  ## **Home Page**
 
- ![Home Page](assets/media/home.jpg)]<br>
+ ![Home Page](assets/media/home.png)<br>
 
- I opted for a subtle but stylish home page so not to overwhelm and provide intriuge for the user, with a artistic image and 3 motivaional quotes. With the easy to access nav bar it helps the user quickly click onto a subject they are inertested in and provide a great start to their websites journey.... intoduction-motivation-workouts/exercise-contact.
+ * I opted for a subtle but stylish home page so not to overwhelm and provide intriuge for the user, with a artistic image and 3 motivaional quotes. 
+ * With the easy to access nav bar it helps the user quickly click onto a subject they are inertested in and provide a great start to the websites journey.
 
  ## **Motivation Page**
 
- ![Motivation Page](assets/media/motivation.jpg)<br>
+ ![Motivation Page](assets/media/motivation.png)<br>
 
 The motivation page has a section that states the goals for the webisite, hoping to motivate and help continue the users fitness journey.<br>
 There are three short articles to read. They were chosen because they are consise, motivational and intended for a wide audience.<br>
