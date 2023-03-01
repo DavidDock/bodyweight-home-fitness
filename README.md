@@ -151,12 +151,19 @@ I again wanted to use simple yet exiting typography which is easy to read. I fou
 * There are two images under the thank you message which match the style and message of the website.
 
 # **Future Enhancements**
+* To add more exercises to exercise page.
+* To add more workouts to workouts page. It would be great to put in users workpouts and user stories on how they motivate themselves. 
+* If more content is added I would add in different images and quotes to break up the text sections to enhance user experience.
 
 # **Testing**
 ## **Manual Testing**
 ## **Code Validators**
+All 6 pages were run through a HTML validator at [https://validator.w3.org/nu/](https://validator.w3.org/nu/) and passed.<br>
+![HTML Validator](assets/media/html-validator.png)<br>
+The CSS also passed the validator testing at [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)<br>
+![CSS Validator](assets/media/css-validator.jpg)
 ## **Lighthouse**
-
+![Lighthouse Scores](assets/media/light-house-desktop.jpg)
 # **Bugs**
 
 # **Deployment**
