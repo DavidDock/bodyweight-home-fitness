@@ -110,30 +110,58 @@ I again wanted to use simple yet exiting typography which is easy to read. I fou
 
  ![Motivation Page](assets/media/motivation.png)<br>
 
-The motivation page has a section that states the goals for the webisite, hoping to motivate and help continue the users fitness journey.<br>
-There are three short articles to read. They were chosen because they are consise, motivational and intended for a wide audience.<br>
-These articles are broken up by motivatonal quotes to inspire the user.<br>
-Initially I intended to add background images to the quotes but it did not work stylistically.<br>
-Each article has a link to the source and each quote has  it's source named.<br>
-CSS grid was used to change layout at 600px breakpoint to ensure good UX.
+* The motivation page has a section that states the goals for the webisite, hoping to motivate and help continue the users fitness journey.<br>
+* There are three short articles to read. They were chosen because they are consise, motivational and intended for a wide audience.<br>
+* These articles are broken up by motivatonal quotes to inspire the user.<br>
+* Initially I intended to add background images to the quotes but it did not work stylistically.<br>
+* Each article has a link to the source and each quote has  it's source named.<br>
+* CSS grid was used to change layout at 600px breakpoint to ensure good UX.
 
 ## **Workouts Page**
 
-![Workouts Page](assets/media/workouts.jpg)<br>
-The workout page has an introduction to encourage users and 5 workout examples.<br>
-The workout examples are refernced with a link to the site that created it.<br>
-Re-assuring messages are placed throughout the workouts to promote the common themes of the website.<br>
-Links to other helpful sites are provided for users to continue thier fitness journey.<br>
-This page is fully responsive and changes css layout using flex at 768px devices. Initially I felt 1024px would be the breakpoint, but after inital viewing this had to be changed.
+![Workouts Page](assets/media/workouts.png)<br>
+
+* The workout page has an introduction to encourage users and 5 workout examples.<br>
+* The workout examples are refernced with a link to the site that created it.<br>
+* Re-assuring messages are placed throughout the workouts to promote the common themes of the website.<br>
+* Links to other helpful sites are provided for users to continue thier fitness journey.<br>
+* This page is fully responsive and changes css layout using flex at 768px devices. Initially I felt 1024px would be the breakpoint, but after inital viewing this had to be changed.
 
 
 ## **Exercise Page**
 
-![Exercises Page](assets/media/exercise.jpg)<br>
+![Exercises Page](assets/media/exercises.png)<br>
 
-This exercise example page has an introduction  and images of how to do 18 home exercise.<br>
-In keeping with the websites goal, these exercise guides are as accessible and simple as can be with straight-forward images on how to complete each exercise so not to overwhelm. These images have a detailed 'alt' description for people who use screen readers.<br>
-This exercise image gallery is fully responsive, changing layout at different screen breakpoints to ensure good UX. 
+* This exercise example page has an introduction  and images of how to do 18 home exercise.<br>
+* In keeping with the websites goal, these exercise guides are as accessible and simple as can be with straight-forward images on how to complete each exercise so not to overwhelm. These images have a detailed 'alt' description for people who use screen readers.<br>
+* This exercise image gallery is fully responsive, changing layout at different screen breakpoints to ensure good UX. 
+
+## **Contact Page**
+
+![Contact Page](assets/media/contact.png)<br>
+
+* Straight forward contact form with an introductory message asking for workout examples or just a general message.
+* A 'get' method was used instead of 'post' in order to get a simulated contact response when the form is subbmitted.
+
+## **Contact Response Page**
+
+![Contact Response Page](assets/media/contact-response.png)<br>
+
+* This page provides a thank you message to users who submit the contact form.
+* There are two images under the thank you message which match the style and message of the website.
+
+# **Future Enhancements**
+
+# **Testing**
+## **Manual Testing**
+## **Code Validators**
+## **Lighthouse**
+
+# **Bugs**
+
+# **Deployment**
+
+# **Credits**
 
 
 
