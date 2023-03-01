@@ -163,7 +163,8 @@ All 6 pages were run through a HTML validator at [https://validator.w3.org/nu/](
 ![HTML Validator](assets/media/html-validator.png)  <br>
 The CSS also passed the validator testing at [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/).  <br>
 ![CSS Validator](assets/media/css-validator.jpg)
-## **Lighthouse**
+## **Lighthouse**  <br>
+After fixing a few bugs and making a couple of changes in my code as described in the 'Bugs' section below my lighthouse scores came back with good consistant results on all 6 pages as seen below. These are desktop scores. When I run the tests for mobile the scores are also very good but slightly lower (95-99) on performance. One factor for this is the image size but I have already compressed the images as much as I can without loosing quality.
 ![Lighthouse Scores](assets/media/light-house-desktop.jpg)
 # **Bugs**  <br>
 * Following my manual testing I noticed four issues which I fixed.
@@ -175,16 +176,20 @@ The CSS also passed the validator testing at [https://jigsaw.w3.org/css-validato
     * In the exercise page I changed a section element to a div as the section didnt have a heading.
     * In the contact response page I changed a section element to a div as the section didnt have a heading.  <br>
 * Following Lighthouse tests it suggested three changes to incease my lighthouse best practice score to 100 on all 6 pages.
-    * The nav bar buttons should be larger. So I incesase their size to fix issue.
-    * My list structure on my links section needed improvement. So I deleted the br attributes and addd padding instead which fixed the issue.
-    * Another suggestion was to add a better link description for my link to a youtube workout video. So I improved the description link words.  <br>
+    * The nav bar buttons should be larger. So I incesased their size to fix issue.
+    * My list structure on my links section needed improvement. So I deleted the br attributes and added padding instead which fixed the issue.
+    * Another suggestion was to add a better link description for my link to a youtube workout video. So I improved the description link.  <br>
+* My lighthouse performance scores initally were a bit lower and flagged up a couple of things I could change.
+    * It was sugested to compress image sizes. I did this on [https://tinypng.com/](https://tinypng.com/) to all of my images but the lighthouse suggestion still flagged up so I converted them to webp files using [https://www.birme.net/?auto_width=true&image_format=webp](https://www.birme.net/?auto_width=true&image_format=webp). This improved my scores.
+    * My images did not have implicit widths and heights which also effected the performance score so I added into the html the width and height of each image. This fixed the issue.
+    * It was also suggested that I minimised the css. I cleaned the css up to make it more efficient.
 * Following the HTML validator testing I made three changes to make sure it passed. 
-    * I needed to ad a p element in the motivation page which I previusely missed.
+    * I needed to add a p element in the motivation page which I previusely missed.
     * In the exercise page I changed a section element to a div as the section didnt have a heading.
     * In the contact response page I changed a section element to a div as the section didnt have a heading.  <br>
 * My mentor noticed the following issues.
     * That the buttons on the nav bar and form changed in size upon hover. This was a style choice by me but it was pointed out that this was not best practice so I ammended the hover style rules to fix the issue.
-    * The text using the teko family font appeared to flash upon reloading the pages. This is a common issue called 'fouc' where the browsers default font styles are shown prior to loading the google font url. I changed the font display attribute to block to give the font face a short block period so this 'flashing' is less likely to occur.
+    * The text using the teko font family appeared to flash upon reloading the pages. This is a common issue called 'fouc' where the browsers default font styles are shown prior to loading the google font url. I changed the font display attribute to block to give the font face a short block period so this 'flashing' is less likely to occur.
 
 
 
