@@ -164,7 +164,7 @@ All 6 pages were run through a HTML validator at [https://validator.w3.org/nu/](
 The CSS also passed the validator testing at [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/).  <br>
 ![CSS Validator](assets/media/css-validator.jpg)
 ## **Lighthouse**  <br>
-After fixing a few bugs and making a couple of changes in my code as described in the 'Bugs' section below my lighthouse scores came back with good consistant results on all 6 pages as seen below. These are desktop scores. When I run the tests for mobile the scores are also very good but slightly lower (95-99) on performance. One factor for this is the image size but I have already compressed the images as much as I can without loosing quality.
+After fixing a few bugs and making a couple of changes in my code as described in the 'Bugs' section, my lighthouse scores came back with good consistant results on all 6 pages as seen below. These are desktop scores. When I run the tests for mobile the scores are also very good but slightly lower (95-99) on performance. One factor for this is the image size but I have already compressed the images as much as I can without loosing quality.  <br>
 ![Lighthouse Scores](assets/media/light-house-desktop.jpg)
 # **Bugs**  <br>
 * Following my manual testing I noticed four issues which I fixed.
