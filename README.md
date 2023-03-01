@@ -166,18 +166,25 @@ The CSS also passed the validator testing at [https://jigsaw.w3.org/css-validato
 ## **Lighthouse**
 ![Lighthouse Scores](assets/media/light-house-desktop.jpg)
 # **Bugs**  <br>
+* Following my manual testing I noticed four issues which I fixed.
+    * The layout of the motivation and workout page did not visually work when following my initial planned wireframes. I changed the breakpoints so that tablets also shared the same layout as the desktop site.
+    * The hero image looked different on my deployed page. Using dev tools and google I found out that the background-size cover value was not working because of the position I placed it in the css, so I moved it lower in the dom to fix the issue.
+    * Both the contact page and contact response pages did not fill the pages on some mobiles and tablets so I increased the size of the content and added spacing to fix issue.  <br>
 * Following the HTML validator testing I made three changes to make sure it passed. 
     * I needed to ad a p element in the motivation page which I previusely missed.
     * In the exercise page I changed a section element to a div as the section didnt have a heading.
-    * In the contact response page I changed a section element to a div as the section didnt have a heading.
+    * In the contact response page I changed a section element to a div as the section didnt have a heading.  <br>
 * Following Lighthouse tests it suggested three changes to incease my lighthouse best practice score to 100 on all 6 pages.
     * The nav bar buttons should be larger. So I incesase their size to fix issue.
     * My list structure on my links section needed improvement. So I deleted the br attributes and addd padding instead which fixed the issue.
-    * Another suggestion was to add a better link description for my link to a youtube workout video. So I improved the description link words.
+    * Another suggestion was to add a better link description for my link to a youtube workout video. So I improved the description link words.  <br>
 * Following the HTML validator testing I made three changes to make sure it passed. 
     * I needed to ad a p element in the motivation page which I previusely missed.
     * In the exercise page I changed a section element to a div as the section didnt have a heading.
-    * In the contact response page I changed a section element to a div as the section didnt have a heading.
+    * In the contact response page I changed a section element to a div as the section didnt have a heading.  <br>
+* My mentor noticed the following issues.
+    * That the buttons on the nav bar and form changed in size upon hover. This was a style choice by me but it was pointed out that this was not best practice so I ammended the hover style rules to fix the issue.
+    * The text using the teko family font appeared to flash upon reloading the pages. This is a common issue called 'fouc' where the browsers default font styles are shown prior to loading the google font url. I changed the font display attribute to block to give the font face a short block period so this 'flashing' is less likely to occur.
 
 
 
