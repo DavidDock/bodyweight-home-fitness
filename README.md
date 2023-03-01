@@ -82,70 +82,71 @@ I again wanted to use simple yet exiting typography which is easy to read. I fou
 ## **Header and Nav bar**
 
 ![Header](assets/media/mobile-tablet-header.jpg)
-![Header](assets/media/desktop-header.jpg)<br>
+![Header](assets/media/desktop-header.jpg)  <br>
 
-* The title of Bodyweight Home Fitness is clear, simple and stylish. It is responsive to all devices and  it acts as a link to the 'home page'. It has a subtle blinking boarder to gain attention.
+* The title of Bodyweight Home Fitness is clear, simple and stylish. It is responsive to all devices and  it acts as a link to the 'home page'. It has a subtle blinking boarder to gain attention.  <br>
 
-* The Nav bar is present on all pages of the website and is very clear to see allowing for easy navigation. The active page is highlighted and a hover effect is also used to enhance ux. 
+* The Nav bar is present on all pages of the website and is very clear to see allowing for easy navigation. The active page is highlighted and a hover effect is also used to enhance ux.  <br>
 
 ## **Footer**
 
-![Footer](assets/media/footer.jpg)<br>
+![Footer](assets/media/footer.jpg)  <br>
 
-* The footer is large, visible and responsive to all devices. I have included a hover toggle to the links to improve UX. These icons were imported from font awesome using Javascript at the bottom of the page.
+* The footer is large, visible and responsive to all devices. I have included a hover toggle to the links to improve UX. These icons were imported from font awesome using Javascript at the bottom of the page.  <br>
 
 ## **Anchor tags**
 
- * I wanted to keep the tags in keeping with the websites minimal style but visible for users so the default style was removed and the link is highlighed by bold font. The only exeption to this was in the 'contact response page' where the social medial links needed an underline text decoration to help with highlighting the link.
- * External links are provided throughout the website for every article and workout example, opening in new tabs and with aria-lables. I have also included internal links to help with simple navigation.
+ * I wanted to keep the tags in keeping with the websites minimal style but visible for users so the default style was removed and the link is highlighed by bold font. The only exeption to this was in the 'contact response page' where the social medial links needed an underline text decoration to help with highlighting the link.  <br>
+ * External links are provided throughout the website for every article and workout example, opening in new tabs and with aria-lables. I have also included internal links to help with simple navigation.  <br>
 
  ## **Home Page**
 
- ![Home Page](assets/media/home.png)<br>
+ ![Home Page](assets/media/home.png)  <br>
 
- * I opted for a subtle but stylish home page so not to overwhelm and provide intriuge for the user, with a artistic image and 3 motivaional quotes. 
- * With the easy to access nav bar it helps the user quickly click onto a subject they are inertested in and provide a great start to the websites journey.
+ * I opted for a subtle but stylish home page so not to overwhelm and provide intriuge for the user, with a artistic image and 3 motivaional quotes. <br>
+ * With the easy to access nav bar it helps the user quickly click onto a subject they are inertested in and provide a great start to the websites journey.  <br>
 
  ## **Motivation Page**
 
- ![Motivation Page](assets/media/motivation.png)<br>
+ ![Motivation Page](assets/media/motivation.png)  <br>
 
-* The motivation page has a section that states the goals for the webisite, hoping to motivate and help continue the users fitness journey.<br>
-* There are three short articles to read. They were chosen because they are consise, motivational and intended for a wide audience.<br>
-* These articles are broken up by motivatonal quotes to inspire the user.<br>
-* Initially I intended to add background images to the quotes but it did not work stylistically.<br>
-* Each article has a link to the source and each quote has  it's source named.<br>
+* The motivation page has a section that states the goals for the webisite, hoping to motivate and help continue the users fitness journey.  <br>
+* There are three short articles to read. They were chosen because they are consise, motivational and intended for a wide audience.  <br>
+* These articles are broken up by motivatonal quotes to inspire the user.  <br>
+* Initially I intended to add background images to the quotes but it did not work stylistically.  <br>
+* Each article has a link to the source and each quote has  it's source named.  <br>
 * CSS grid was used to change layout at 600px breakpoint to ensure good UX.
 
 ## **Workouts Page**
 
 ![Workouts Page](assets/media/workouts.png)<br>
 
-* The workout page has an introduction to encourage users and 5 workout examples.<br>
-* The workout examples are refernced with a link to the site that created it.<br>
-* Re-assuring messages are placed throughout the workouts to promote the common themes of the website.<br>
-* Links to other helpful sites are provided for users to continue thier fitness journey.<br>
+* The workout page has an introduction to encourage users and 5 workout examples.  <br>
+* The workout examples are refernced with a link to the site that created it.  <br>
+* Re-assuring messages are placed throughout the workouts to promote the common themes of the website. 
+ <br>
+* Links to other helpful sites are provided for users to continue thier fitness journey.  <br>
 * This page is fully responsive and changes css layout using flex at 768px devices. Initially I felt 1024px would be the breakpoint, but after inital viewing this had to be changed.
 
 
 ## **Exercise Page**
 
-![Exercises Page](assets/media/exercises.png)<br>
+![Exercises Page](assets/media/exercises.png)  <br>
 
-* This exercise example page has an introduction  and images of how to do 18 home exercise.<br>
-* In keeping with the websites goal, these exercise guides are as accessible and simple as can be with straight-forward images on how to complete each exercise so not to overwhelm. These images have a detailed 'alt' description for people who use screen readers.<br>
+* This exercise example page has an introduction  and images of how to do 18 home exercise.  <br>
+* In keeping with the websites goal, these exercise guides are as accessible and simple as can be with straight-forward images on how to complete each exercise so not to overwhelm. These images have a detailed 'alt' description for people who use screen readers.  <br>
 * This exercise image gallery is fully responsive, changing layout at different screen breakpoints to ensure good UX. 
 
 ## **Contact Page**
 
-![Contact Page](assets/media/contact.png)<br>
+![Contact Page](assets/media/contact.png)  <br>
 
 * Straight forward contact form with an introductory message asking for workout examples or just a general message.
 * A 'get' method was used instead of 'post' in order to get a simulated contact response when the form is subbmitted.
 
 ## **Contact Response Page**
 
-![Contact Response Page](assets/media/contact-response.png)<br>
+![Contact Response Page](assets/media/contact-response.png)  <br>
 
 * This page provides a thank you message to users who submit the contact form.
 * There are two images under the thank you message which match the style and message of the website.
@@ -158,9 +159,9 @@ I again wanted to use simple yet exiting typography which is easy to read. I fou
 # **Testing**
 ## **Manual Testing**
 ## **Code Validators**
-All 6 pages were run through a HTML validator at [https://validator.w3.org/nu/](https://validator.w3.org/nu/) and passed.<br>
-![HTML Validator](assets/media/html-validator.png)<br>
-The CSS also passed the validator testing at [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)<br>
+All 6 pages were run through a HTML validator at [https://validator.w3.org/nu/](https://validator.w3.org/nu/) and passed.  <br>
+![HTML Validator](assets/media/html-validator.png)  <br>
+The CSS also passed the validator testing at [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/).  <br>
 ![CSS Validator](assets/media/css-validator.jpg)
 ## **Lighthouse**
 ![Lighthouse Scores](assets/media/light-house-desktop.jpg)
