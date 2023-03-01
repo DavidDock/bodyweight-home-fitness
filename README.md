@@ -165,7 +165,22 @@ The CSS also passed the validator testing at [https://jigsaw.w3.org/css-validato
 ![CSS Validator](assets/media/css-validator.jpg)
 ## **Lighthouse**
 ![Lighthouse Scores](assets/media/light-house-desktop.jpg)
-# **Bugs**
+# **Bugs**  <br>
+* Following the HTML validator testing I made three changes to make sure it passed. 
+    * I needed to ad a p element in the motivation page which I previusely missed.
+    * In the exercise page I changed a section element to a div as the section didnt have a heading.
+    * In the contact response page I changed a section element to a div as the section didnt have a heading.
+* Following Lighthouse tests it suggested three changes to incease my lighthouse best practice score to 100 on all 6 pages.
+    * The nav bar buttons should be larger. So I incesase their size to fix issue.
+    * My list structure on my links section needed improvement. So I deleted the br attributes and addd padding instead which fixed the issue.
+    * Another suggestion was to add a better link description for my link to a youtube workout video. So I improved the description link words.
+* Following the HTML validator testing I made three changes to make sure it passed. 
+    * I needed to ad a p element in the motivation page which I previusely missed.
+    * In the exercise page I changed a section element to a div as the section didnt have a heading.
+    * In the contact response page I changed a section element to a div as the section didnt have a heading.
+
+
+
 
 # **Deployment**
 
