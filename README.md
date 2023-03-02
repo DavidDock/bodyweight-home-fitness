@@ -60,7 +60,7 @@ The images where carefully chosesn to match the breif of the website, they are n
 
 ## **Wireframes**
 
-Wireframes were made with Balsamiq for Mobile, Tablet and Laptop devices.
+Wireframes were made with Balsamiq for Mobile, Tablet and Desktop devices.
 
 
 ![Home page](assets/wireframes/home-page.png)
@@ -165,16 +165,23 @@ I again wanted to use simple yet exiting typography which is easy to read. I fou
 
 
 * This page provides a thank you message to users who submit the contact form.
-* There are two images under the thank you message which match the style and message of the website.
+* There are two images under the thank you message which match the style of the website.
 
 # **Future Enhancements**
 
 * To add more exercises to exercise page.
-* To add more workouts to workouts page. It would be great to put in users workpouts and user stories on how they motivate themselves. 
+* To add more workouts to workouts page. It would be great to put in users workouts and user stories on how they motivate themselves. 
 * If more content is added I would add in different images and quotes to break up the text sections to enhance user experience.
 
 # **Testing**
+
 ## **Manual Testing**
+
+* I tested my website on mobile phones, tablets and desktops to make sure it was responsive and worked  and looked good on all devise sizes.
+* It was tested on google chrome, microsoft edge and safari browsers to ensure it works on all.
+* I tested throughout the project using dev tools in google, testing responsiveness at all sizes from 320px width to desktop.
+* After the project was complete I made a check list to test all links, buttons and hover effects to make sure every element worked on each page. I double checked that all external links had aria-labels and opened in a new tab and the images had alt messages.
+
 ## **Code Validators**
 
 All 6 pages were run through a HTML validator at [https://validator.w3.org/nu/](https://validator.w3.org/nu/) and passed.
@@ -213,11 +220,6 @@ After fixing a few bugs and making a couple of changes in my code as described i
     * My images did not have implicit widths and heights which also effected the performance score so I added into the html the width and height of each image. This fixed the issue.
     * It was also suggested that I minimised the css. I cleaned the css up to make it more efficient.
 
-* Following the HTML validator testing I made three changes to make sure it passed. 
-    * I needed to add a p element in the motivation page which I previusely missed.
-    * In the exercise page I changed a section element to a div as the section didnt have a heading.
-    * In the contact response page I changed a section element to a div as the section didnt have a heading.
-
 * My mentor noticed the following issues.
     * That the buttons on the nav bar and form changed in size upon hover. This was a style choice by me but it was pointed out that this was not best practice so I ammended the hover style rules to fix the issue.
     * The text using the teko font family appeared to flash upon reloading the pages. This is a common issue called 'fouc' where the browsers default font styles are shown prior to loading the google font url. I changed the font display attribute to block to give the font face a short block period so this 'flashing' is less likely to occur.
@@ -234,7 +236,7 @@ Github Pages was used to deploy the website by the following steps:
 * Clicked on the Settings link.
 * Clicked on the Pages link in the left hand side navigation bar.
 * In the Source section, I choose main from the drop down select branch menu and selected Root from the drop down select folder menu.
-* Clicked Save. Your and the live Github Pages site was deployed at [https://daviddock.github.io/bodyweight-home-fitness/index.html](https://daviddock.github.io/bodyweight-home-fitness/index.html)
+* Clicked save, and the live Github Pages site was deployed at [https://daviddock.github.io/bodyweight-home-fitness/index.html](https://daviddock.github.io/bodyweight-home-fitness/index.html)
 
 # **Credits**
 
