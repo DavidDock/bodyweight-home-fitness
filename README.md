@@ -240,6 +240,34 @@ Github Pages was used to deploy the website by the following steps:
 
 # **Credits**
 
+## **Technologies Used**
+
+HTML and CSS were used to build the website.
+
+### **Learning**
+
+* The majority of my learning was through Code Insitute.
+* Code Institutes Love Running walkthrough project taught me how to create and deploy a project through Git pod and Git hub.
+
+### **New learning**
+
+* I learn't both css grid and flex display types through [Kevin Powell](https://www.youtube.com/@KevinPowell) youtube videos as per suggestion by our slack tutors.
+* CSS box shadow, gradient and footer toggle shake animation were learnt and modified from [https://www.w3schools.com/(https://www.w3schools.com/)].
+* The blinking boarder around my logo was learnt from [stackoverflow.com](https://stackoverflow.com/questions/51764992/blink-border-3-times-1-second-per-loop-in-css).
+
+## *Content and Media**
+
+* The fonts are sourced from google fonts.
+* The icons are sourced from font awsome.
+* The image of my website in different devices is from [ui.dev/amiresponsive](ui.dev/amiresponsive).
+* The articles in the motivation page were taken from the free newsletter [The Pump Daily](https://schwarzenegger.ck.page/0943ca5e13). These were credited in the website.
+* Motivational quotes by various people, credited in the website.
+* Workout examples are credited in the workout page and were taken from The Pump daily, Crossfit, Thenx and Fitnessvolt.
+* The hero image on the home page and the two images in the contact response page were taken from vecteezy.com and modifiyed by me to match the websites style. These images do not need attribution.
+* The exercise images were also taken from vecteezy.com.
+
+
+
 
 
 
