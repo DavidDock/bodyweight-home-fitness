@@ -142,6 +142,7 @@ I again wanted to use simple yet exiting typography which is easy to read. I fou
 ![Contact Page](assets/media/contact.png)  <br>
 
 * Straight forward contact form with an introductory message asking for workout examples or just a general message.
+* The message or suggested workout text area is a required field whereas the name is not.
 * A 'get' method was used instead of 'post' in order to get a simulated contact response when the form is subbmitted.
 
 ## **Contact Response Page**
@@ -195,6 +196,14 @@ After fixing a few bugs and making a couple of changes in my code as described i
 
 
 # **Deployment**
+Github Pages was used to deploy the website by the following steps:  <br>
+
+* I went to Github.
+* Selected my repository for this project.
+* Clicked on the Settings link.
+* Clicked on the Pages link in the left hand side navigation bar.
+* In the Source section, I choose main from the drop down select branch menu and selected Root from the drop down select folder menu.
+* Clicked Save. Your and the live Github Pages site was deployed at [https://daviddock.github.io/bodyweight-home-fitness/index.html](https://daviddock.github.io/bodyweight-home-fitness/index.html)
 
 # **Credits**
 
