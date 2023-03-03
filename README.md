@@ -252,8 +252,8 @@ HTML and CSS were used to build the website.
 ### **New learning**
 
 * I learned both css grid and flex display types through [Kevin Powell](https://www.youtube.com/@KevinPowell) youtube videos as per suggestion by our slack tutors.
-* CSS box shadow, gradient and footer toggle shake animation were learned and modified from [https://www.w3schools.com/](https://www.w3schools.com/).
-* The blinking boarder around my logo was learnt from [stackoverflow.com](https://stackoverflow.com/questions/51764992/blink-border-3-times-1-second-per-loop-in-css).
+* CSS box shadow, gradient and footer toggle shake animation were learned and modified from [https://www.w3schools.com/howto/howto_css_shake_image.asp](https://www.w3schools.com/howto/howto_css_shake_image.asp).
+* The blinking boarder around my logo was learnt from [https://stackoverflow.com/questions/51764992/blink-border-3-times-1-second-per-loop-in-css](https://stackoverflow.com/questions/51764992/blink-border-3-times-1-second-per-loop-in-css).
 
 ## **Content and Media**
 
