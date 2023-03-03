@@ -171,7 +171,7 @@ Again, I wanted to use simple yet exciting typography which is easy to read. I f
 
 * To add more exercises to exercise page.
 * To add more workouts to workouts page. It would be great to put in users workouts and user stories on how they motivate themselves. 
-* If more content is added I would add in different images and quotes to break up the text sections to enhance user experience.
+* If more content is added I would add in different images and quotes to break up the text sections to enhance user experience. My mentor sent me a some information about [Gestalt principles in UI design](https://medium.muz.li/gestalt-principles-in-ui-design-6b75a41e9965) which I would use in future modifications of this website.
 
 # **Testing**
 
